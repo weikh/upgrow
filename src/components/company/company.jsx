@@ -18,7 +18,7 @@ const Company = () => {
   }, []);
 
   return (
-    <div className="max-w-[1240px] ml-[80px] mt-[80px]" id="company">
+    <div className="max-w-[1240px] mx-auto mt-[80px]" id="company">
       <p
         data-aos="fade-right"
         className="flex items-center gap-5 font-medium text-[22px] leading-[26px] text-[#2644d9]"
@@ -44,21 +44,36 @@ const Company = () => {
         </div>
 
         <div className="max-w-[580px] mt-[40px] ml-[40px]">
-          <p data-aos="fade-right" className="font-normal text-[24px] leading-[43px] text-[#2644d9]">
+          <p
+            data-aos="fade-right"
+            className="font-normal text-[24px] leading-[43px] text-[#2644d9]"
+          >
             {t("company-text2")}
           </p>
-          <h2 data-aos="fade-left" className="font-bold text-[52px] leading-[70px] text-[#1e2f84]">
+          <h2
+            data-aos="fade-left"
+            className="font-bold text-[52px] leading-[70px] text-[#1e2f84]"
+          >
             {t("company-text3")}
           </h2>
-          <p data-aos="fade-right" className="mt-[20px] font-normal text-[24px] leading-9 text-[#5b5b5b]">
+          <p
+            data-aos="fade-right"
+            className="mt-[20px] font-normal text-[24px] leading-9 text-[#5b5b5b]"
+          >
             {t("company-taxt4")}
           </p>
           <div className="flex items-center gap-[30px] mt-[25px]">
-            <button data-aos="fade-up" className="flex items-center gap-[10px] py-2 px-[65px] border-[2px] border-[#2644d9] rounded-[15px] font-medium text-[22px] leading-[26px] text-[#2644d9]">
+            <button
+              data-aos="fade-up"
+              className="flex items-center gap-[10px] py-2 px-[65px] border-[2px] border-[#2644d9] rounded-[15px] font-medium text-[22px] leading-[26px] text-[#2644d9] hover:!scale-95"
+            >
               {t("portfolio")} <PiArrowUpRightBold color="#2644d9" />
             </button>
-            <a href="tel:+998 77 708 41 41">
-              <button data-aos="fade-down" className="flex items-center gap-[10px] py-[10px] px-[65px] bg-gradient-to-r from-[#3d5aec] to-[#091e84] rounded-[15px] text-white">
+            <a href="tel:+998 77 708 41 41" className="hover:scale-95">
+              <button
+                data-aos="fade-down"
+                className="flex items-center gap-[10px] py-[10px] px-[65px] bg-gradient-to-r from-[#3d5aec] to-[#091e84] rounded-[15px] text-white"
+              >
                 <BsTelephoneFill />
                 {t("company-text5")}
               </button>

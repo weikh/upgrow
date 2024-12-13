@@ -62,7 +62,7 @@ const Services = () => {
       </p>
       <div className="mt-[40px]">
         <Slider {...settings}>
-          <div className="max-w-[380px] w-full h-[500px] rounded-[20px] p-[30px] bg-gradient-to-b from-[#EEFCFF] to-[#FFFFFF] shadow-xl">
+          <div className="max-w-[380px] w-full h-[540px] rounded-[20px] my-[20px] p-[30px] bg-gradient-to-b from-[#EEFCFF] to-[#FFFFFF] shadow-xl">
             <div className="flex gap-4 items-center font-semibold text-[28px] leading-[48px] text-[#3939393]">
               <img width={24} height={24} src={services1} alt="services1" />{" "}
               {t("services1-text1")}
@@ -84,7 +84,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="max-w-[380px] w-full h-[500px] rounded-[20px] p-[30px] bg-gradient-to-b from-[#EAF2FF] to-[#FFFFFF] shadow-xl">
+          <div className="max-w-[380px] w-full h-[540px] rounded-[20px] my-[20px] p-[30px] bg-gradient-to-b from-[#EAF2FF] to-[#FFFFFF] shadow-xl">
             <div className="flex gap-4 font-semibold text-[28px] leading-[48px] text-[#3939393]">
               <img width={24} height={24} src={services2} alt="services2" />{" "}
               {t("services2-text1")}
@@ -109,7 +109,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="max-w-[380px] w-full h-[500px] rounded-[20px] p-[30px] bg-gradient-to-b from-[#FFF0F5] to-[#FFFFFF] shadow-xl">
+          <div className="max-w-[380px] w-full h-[540px] rounded-[20px] my-[20px] p-[30px] bg-gradient-to-b from-[#FFF0F5] to-[#FFFFFF] shadow-xl">
             <div className="flex gap-4 items-center font-semibold text-[28px] leading-[48px] text-[#3939393]">
               <img width={24} height={24} src={services3} alt="services3" />{" "}
               {t("services3-text1")}
@@ -131,7 +131,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="max-w-[380px] w-full h-[500px] rounded-[20px] p-[30px] bg-gradient-to-b from-[#FEFFF1] to-[#FFFFFF] shadow-xl">
+          <div className="max-w-[380px] w-full h-[540px] rounded-[20px] my-[20px] p-[30px] bg-gradient-to-b from-[#FEFFF1] to-[#FFFFFF] shadow-xl">
             <div className="flex gap-4 items-center font-semibold text-[28px] leading-[48px] text-[#3939393]">
               <img width={24} height={24} src={services4} alt="services4" />{" "}
               {t("services4-text1")}
@@ -150,7 +150,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="max-w-[380px] w-full h-[500px] rounded-[20px] p-[30px] bg-gradient-to-b from-[#F7EDFF] to-[#FFFFFF] shadow-xl">
+          <div className="max-w-[380px] w-full h-[540px] rounded-[20px] my-[20px] p-[30px] bg-gradient-to-b from-[#F7EDFF] to-[#FFFFFF] shadow-xl">
             <div className="flex gap-4 items-center font-semibold text-[28px] leading-[48px] text-[#3939393]">
               <img width={24} height={24} src={services5} alt="services5" />{" "}
               {t("services5-text1")}
@@ -169,7 +169,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="max-w-[380px] w-full h-[500px] rounded-[20px] p-[30px] bg-gradient-to-b from-[#EEFFF1] to-[#FFFFFF] shadow-xl">
+          <div className="max-w-[380px] w-full h-[540px] rounded-[20px] my-[20px] p-[30px] bg-gradient-to-b from-[#EEFFF1] to-[#FFFFFF] shadow-xl">
             <div className="flex gap-4 items-center font-semibold text-[28px] leading-[48px] text-[#3939393]">
               <img width={24} height={24} src={services6} alt="services6" />{" "}
               {t("services6-text1")}

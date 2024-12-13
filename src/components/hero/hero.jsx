@@ -24,37 +24,37 @@ const Hero = () => {
         <div className="flex flex-wrap mt-[30px] gap-5 font-medium text-xl leading-6 text-[20px] text-[#5b5b5b]">
           <a
             href="#services"
-            className="py-2 px-[33px] border border-[#5b5b5b] rounded-[15px]"
+            className="py-2 px-[33px] border border-[#5b5b5b] rounded-[15px] hover:bg-[#2d44d9] hover:text-[#fff]"
           >
             {t("mobile")}
           </a>
           <a
             href="#services"
-            className="py-2 px-[21px] border border-[#5b5b5b] rounded-[15px]"
+            className="py-2 px-[21px] border border-[#5b5b5b] rounded-[15px] hover:bg-[#2d44d9] hover:text-[#fff]"
           >
             {t("veb")}
           </a>
           <a
             href="#services"
-            className="py-2 px-[24px] border border-[#5b5b5b] rounded-[15px]"
+            className="py-2 px-[24px] border border-[#5b5b5b] rounded-[15px] hover:bg-[#2d44d9] hover:text-[#fff]"
           >
             {t("erp")}
           </a>
           <a
             href="#services"
-            className="py-2 px-[30px] border border-[#5b5b5b] rounded-[15px]"
+            className="py-2 px-[30px] border border-[#5b5b5b] rounded-[15px] hover:bg-[#2d44d9] hover:text-[#fff]"
           >
             {t("commerce")}
           </a>
           <a
             href="#services"
-            className="py-2 px-[20px] border border-[#5b5b5b] rounded-[15px]"
+            className="py-2 px-[20px] border border-[#5b5b5b] rounded-[15px] hover:bg-[#2d44d9] hover:text-[#fff]"
           >
             {t("startup")}
           </a>
         </div>
         <a href="#contact">
-          <button className="max-w-[250px] py-[10px] px-[50px] mt-[59px] bg-gradient-to-r from-[#3d5aec] to-[#091e84] rounded-[15px] text-white">
+          <button className="max-w-[250px] py-[10px] px-[50px] mt-[59px] bg-gradient-to-r from-[#3d5aec] to-[#091e84] rounded-[15px] text-white hover:scale-95">
             {t("start")}
           </button>
         </a>

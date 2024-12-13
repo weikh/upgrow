@@ -116,5 +116,9 @@
   "footer-text10": "About Us",
   "footer-text11": "Services",
   "footer-text12": "Projects",
-  "footer-text13": "Contact Us"
+  "footer-text13": "Contact Us",
+  "footer-text14": "The rights are reserved.",
+
+  "success": "Success",
+  "error": "Error"
 }

@@ -116,5 +116,9 @@
   "footer-text10": "О нас",
   "footer-text11": "Услуги",
   "footer-text12": "Проекты",
-  "footer-text13": "Связаться с нами"
+  "footer-text13": "Связаться с нами",
+  "footer-text14": "Все права защищены.",
+
+  "success": "Успех",
+  "error": "Ошибка"
 }

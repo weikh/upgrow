@@ -80,7 +80,7 @@ const Footer = () => {
       <div className='border-b-[0.5px] border-[#A7A7A7]'></div>
       <div className='flex justify-center items-center py-2 gap-5 text-[#5B5B5B]'>
         <p>© Upgrow</p>
-        <p>Barcha huquqlari himoyalangan.</p>
+        <p>{t('footer-text14')}</p>
       </div>
     </footer>
   )

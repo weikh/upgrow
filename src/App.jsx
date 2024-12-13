@@ -15,7 +15,7 @@ import "react-toastify/dist/ReactToastify.css";
 function App() {
 
   return (
-    <div className='bg-[#f7f9fd] max-w-[1440px] mx-auto min-h-screen'>
+    <div className='bg-[#f7f9fd] mx-auto min-h-screen'>
       <Navbar/>
       <Hero/>
       <Logo/>

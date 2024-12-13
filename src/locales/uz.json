@@ -96,13 +96,13 @@
   "clients3-text2": "CEO - “YuniyGeniy”",
   "clients3-text3": "Upgrow jamoasi tomonidan yaratilgan 'SKS LMS' tizimi bilan biznesimizdagi ko'p muammolarni 2 yilda hal qildik. 500 dan ortiq foydalanuvchi tizimdan foydalandi va bizning barcha biznes muammolarimiz muvaffaqiyatli yechildi!",
 
-  "contact1":"SIZDA AMALGA OSHIRISH UCHUN G’OYANGIZ BORMI? KELING, BU HAQIDA SUHBATLASHAMIZ",
-  "contact2":"Yoki bizga qo’ng’iroq qilishingiz mumkin",
-  "contact3":"Ismingiz",
-  "contact4":"Telefon raqmingiz",
-  "contact5":"Elektron pochtangiz",
-  "contact6":"Yuborilmoqda...",
-  "contact7":"Ma’lumotlarni yuborish",
+  "contact1": "SIZDA AMALGA OSHIRISH UCHUN G’OYANGIZ BORMI? KELING, BU HAQIDA SUHBATLASHAMIZ",
+  "contact2": "Yoki bizga qo’ng’iroq qilishingiz mumkin",
+  "contact3": "Ismingiz",
+  "contact4": "Telefon raqmingiz",
+  "contact5": "Elektron pochtangiz",
+  "contact6": "Yuborilmoqda...",
+  "contact7": "Ma’lumotlarni yuborish",
 
   "footer-text1": "SIZNING MANFAATINGIZ BIZNING FOYDAMIZ",
   "footer-text2": "Xizmatlarimiz",
@@ -116,5 +116,9 @@
   "footer-text10": "Biz haqimizda",
   "footer-text11": "Xizmatlar",
   "footer-text12": "Loyihalar",
-  "footer-text13": "Biz bilan bog’lanish"
+  "footer-text13": "Biz bilan bog’lanish",
+  "footer-text14": "Barcha huquqlari himoyalangan.",
+
+  "success": "Yuborildi",
+  "error": "Xatolik"
 }

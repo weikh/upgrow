@@ -55,7 +55,7 @@ const Partners = () => {
   }, []);
 
   return (
-    <div className="max-w-[1240px] ml-[80px] mt-[80px]">
+    <div className="max-w-[1240px] mx-auto mt-[80px]">
       <p data-aos="fade-right" className="flex items-center gap-5 font-medium text-[22px] leading-[26px] text-[#2644d9]">
         <span className="h-5 border-[2px] border-[#2644d9] rounded-3xl"></span>
         {t("partners")}
@@ -63,22 +63,22 @@ const Partners = () => {
       <div className="mt-[40px]">
         <Slider {...settings}>
           <div className="w-[100px] h-[68px] flex items-center justify-center">
-            <img className="w-[190px] h-[68px]" src={partners1} alt="partners1" />
+            <img className="w-[190px] h-[68px] filter grayscale hover:grayscale-0 transition" src={partners1} alt="partners1" />
           </div>
           <div className="w-[100px] h-[68px] flex items-center justify-center">
-            <img className="w-[140px] h-[68px]" src={partners2} alt="partners2" />
+            <img className="w-[140px] h-[68px] filter grayscale hover:grayscale-0 transition" src={partners2} alt="partners2" />
           </div>
           <div className="w-[100px] h-[68px] flex items-center justify-center">
-            <img className="w-[100px] h-[68px]" src={partners3} alt="partners3" />
+            <img className="w-[100px] h-[68px] filter grayscale hover:grayscale-0 transition" src={partners3} alt="partners3" />
           </div>
           <div className="w-[100px] h-[68px] flex items-center justify-center">
-            <img className="w-[140px] h-[68px]" src={partners4} alt="partners4" />
+            <img className="w-[140px] h-[68px] filter grayscale hover:grayscale-0 transition" src={partners4} alt="partners4" />
           </div>
           <div className="w-[100px] h-[68px] flex items-center justify-center">
-            <img className="w-[160px] h-[68px]" src={partners5} alt="partners5" />
+            <img className="w-[160px] h-[68px] filter grayscale hover:grayscale-0 transition" src={partners5} alt="partners5" />
           </div>
           <div className="w-[100px] h-[68px] flex items-center justify-center">
-            <img className="w-[200px] h-[68px]" src={partners6} alt="partners6" />
+            <img className="w-[200px] h-[68px] filter grayscale hover:grayscale-0 transition" src={partners6} alt="partners6" />
           </div>
         </Slider>
       </div>

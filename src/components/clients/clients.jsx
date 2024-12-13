@@ -24,7 +24,7 @@ const Clients = () => {
         {t("clients")}
       </p>
       <div className="mt-[70px] pt-[15px] flex gap-[60px] overflow-x-auto scrollbar-hide">
-        <div className="w-[360px] h-[340px] text-center shadow-xl bg-white rounded-[20px] flex-shrink-0 relative mt-[30px]">
+        <div className="w-[360px] h-[340px] my-[20px] text-center shadow-xl bg-white rounded-[20px] flex-shrink-0 relative mt-[30px]">
           <img
             src={clients1}
             alt="clients1"
@@ -48,7 +48,7 @@ const Clients = () => {
           </div>
         </div>
 
-        <div className="w-[360px] h-[340px] text-center shadow-xl bg-white rounded-[20px] flex-shrink-0 relative mt-[30px]">
+        <div className="w-[360px] h-[340px] my-[20px] text-center shadow-xl bg-white rounded-[20px] flex-shrink-0 relative mt-[30px]">
           <img
             src={clients2}
             alt="clients2"
@@ -72,7 +72,7 @@ const Clients = () => {
           </div>
         </div>
 
-        <div className="w-[360px] h-[340px] text-center shadow-xl bg-white rounded-[20px] flex-shrink-0 relative mt-[30px]">
+        <div className="w-[360px] h-[340px] my-[20px] text-center shadow-xl bg-white rounded-[20px] flex-shrink-0 relative mt-[30px]">
           <img
             src={clients3}
             alt="clients3"
@@ -96,7 +96,7 @@ const Clients = () => {
           </div>
         </div>
 
-        <div className="w-[360px] h-[340px] text-center shadow-xl bg-white rounded-[20px] flex-shrink-0 relative mt-[30px]">
+        <div className="w-[360px] h-[340px] my-[20px] text-center shadow-xl bg-white rounded-[20px] flex-shrink-0 relative mt-[30px]">
           <img
             src={clients1}
             alt="clients1"
@@ -120,7 +120,7 @@ const Clients = () => {
           </div>
         </div>
 
-        <div className="w-[360px] h-[340px] text-center shadow-xl bg-white rounded-[20px] flex-shrink-0 relative mt-[30px]">
+        <div className="w-[360px] h-[340px] my-[20px] text-center shadow-xl bg-white rounded-[20px] flex-shrink-0 relative mt-[30px]">
           <img
             src={clients2}
             alt="clients2"
@@ -144,7 +144,7 @@ const Clients = () => {
           </div>
         </div>
 
-        <div className="w-[360px] h-[340px] text-center shadow-xl bg-white rounded-[20px] flex-shrink-0 relative mt-[30px]">
+        <div className="w-[360px] h-[340px] my-[20px] text-center shadow-xl bg-white rounded-[20px] flex-shrink-0 relative mt-[30px]">
           <img
             src={clients3}
             alt="clients3"
