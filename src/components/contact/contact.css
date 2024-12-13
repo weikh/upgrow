@@ -1,0 +1,10 @@
+.contact-bg{
+  background-image: url('../../assets/icons/Untitled-12.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact-btn-bg{
+  background: linear-gradient(90deg, #3D5AEC 0%, #091E84 100%);
+}

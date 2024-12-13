@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="max-w-[1280px] h-[72px] flex justify-between items-center px-[40px] rounded-[20px] bg-white border border-black mt-[10px] mx-auto">
+    <div className="fixed top-0 left-0 right-0 mt-[20px] mx-auto max-w-[1280px] w-full h-[72px] flex justify-between items-center px-[40px] rounded-[20px] bg-white z-50">
       <ul>
         <li>
           <a href="#">
@@ -21,10 +21,10 @@ const Navbar = () => {
         </li>
       </ul>
       <ul className="flex items-center gap-[50px] font-medium text-[18px] leading-5 text-[#393939]">
-        <li>{t("about")}</li>
-        <li>{t("services")}</li>
-        <li>{t("portfolio")}</li>
-        <li>{t("contacts")}</li>
+        <a href="#company" className="cursor-pointer hover:text-[#2d44d9]">{t("about")}</a>
+        <a href="#services" className="cursor-pointer hover:text-[#2d44d9]">{t("services")}</a>
+        <a href="#" className="cursor-pointer hover:text-[#2d44d9]">{t("portfolio")}</a>
+        <a href="#contact" className="cursor-pointer hover:text-[#2d44d9]">{t("contacts")}</a>
         <li>
           <select
             className="h-[30px] rounded-lg border border-[#a7a7a7] outline-none"
