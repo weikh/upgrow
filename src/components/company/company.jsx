@@ -37,7 +37,7 @@ const Company = () => {
           />
           <img
             data-aos="fade-left"
-            className="max-w-[460px] max-h-[260px] ml-auto mt-[40px]"
+            className="max-w-[460px] max-h-[260px] ml-auto mt-[20px]"
             src={companyImg2}
             alt="img"
           />
@@ -52,7 +52,7 @@ const Company = () => {
           </p>
           <h2
             data-aos="fade-left"
-            className="font-bold text-[52px] leading-[70px] text-[#1e2f84]"
+            className="font-bold text-[52px] leading-[78px] text-[#1e2f84]"
           >
             {t("company-text3")}
           </h2>
@@ -62,7 +62,7 @@ const Company = () => {
           >
             {t("company-taxt4")}
           </p>
-          <div className="flex items-center gap-[30px] mt-[25px]">
+          <div className="flex items-center gap-[30px] mt-[85px]">
             <button
               data-aos="fade-up"
               className="flex items-center gap-[10px] py-2 px-[65px] border-[2px] border-[#2644d9] rounded-[15px] font-medium text-[22px] leading-[26px] text-[#2644d9] hover:!scale-95"
@@ -72,7 +72,7 @@ const Company = () => {
             <a href="tel:+998 77 708 41 41" className="hover:scale-95">
               <button
                 data-aos="fade-down"
-                className="flex items-center gap-[10px] py-[10px] px-[65px] bg-gradient-to-r from-[#3d5aec] to-[#091e84] rounded-[15px] text-white"
+                className="flex items-center gap-[10px] py-[10px] px-[65px] bg-gradient-to-r from-[#3d5aec] to-[#091e84] rounded-[15px] text-white font-medium text-[22px] leading-[26px]"
               >
                 <BsTelephoneFill />
                 {t("company-text5")}

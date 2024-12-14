@@ -10,12 +10,12 @@ const Logo = () => {
     className: "center",
     centerMode: true,
 
-    centerPadding: "60px",
-    slidesToShow: 3,
-    speed: 2000,
+    centerPadding: "0px",
+    slidesToShow: 9,
+    speed: 4000,
     dots: false,
 
-    slidesToScroll: 1,
+    slidesToScroll: 0,
     autoplay: true,
     autoplaySpeed: 0,
     cssEase: "linear",

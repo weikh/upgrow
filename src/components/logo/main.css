@@ -1,4 +1,14 @@
 .custom-gradient {
-   background: linear-gradient(90deg, #0521B2 0%, #092097 25%, #0521B2 50%, #092097 75%, #0521B2 100%);
- }
- 
+  background: linear-gradient(
+    90deg,
+    #0521b2 0%,
+    #092097 25%,
+    #0521b2 50%,
+    #092097 75%,
+    #0521b2 100%
+  );
+}
+
+.slick-next {
+  display: none !important;
+}
