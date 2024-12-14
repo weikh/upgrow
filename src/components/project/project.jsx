@@ -12,6 +12,7 @@ const Project = () => {
       duration: 500,
       easing: "ease",
       once: false,
+      offset: 10,
     });
   });
   return (

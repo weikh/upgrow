@@ -1,0 +1,10 @@
+/* Boshqa klasslarni qo'shish uchun */
+.custom-transition {
+   transition: transform 700ms, box-shadow 700ms;
+ }
+ 
+ .custom-transition:hover {
+   transform: translateY(-10px);
+   box-shadow: 0px 15px 20px 0px #0000000D;
+ }
+ 

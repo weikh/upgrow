@@ -47,6 +47,7 @@ const Contact = () => {
       duration: 500,
       easing: "ease",
       once: false,
+      offset: 10,
     });
   }, []);
 

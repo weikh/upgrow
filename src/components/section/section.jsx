@@ -11,6 +11,7 @@ import {
 } from "../../assets/icons/icons";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./main.css";
 
 const Section = () => {
   const { t } = useTranslation();
@@ -20,6 +21,7 @@ const Section = () => {
       duration: 500,
       easing: "ease",
       once: false,
+      offset: 10,
     });
   }, []);
 
@@ -36,8 +38,8 @@ const Section = () => {
       <div className="flex flex-col mt-[40px] ml-[40px]">
         <div className="flex justify-between gap-[30px]">
           <div
-            data-aos="fade-right"
-            className="max-w-[470px] w-full flex flex-col items-center rounded-[20px] bg-[#fff] py-[54px] hover:shadow-custom hover:translate-y-[5px] transition-all duration-1000"
+            // data-aos="fade-right"
+            className="max-w-[470px] w-full flex flex-col items-center rounded-[20px] bg-[#fff] py-[54px] custom-transition"
           >
             <img
               className="max-w-[327px] w-full max-h-[66px] h-full"
@@ -50,8 +52,8 @@ const Section = () => {
           </div>
 
           <div
-            data-aos="fade-left"
-            className="max-w-[700px] w-full pt-[30px] pl-[30px] rounded-[20px] bg-[#fff] hover:shadow-custom hover:translate-y-[5px] transition-all duration-1000"
+            // data-aos="fade-left"
+            className="max-w-[700px] w-full pt-[30px] pl-[30px] rounded-[20px] bg-[#fff] custom-transition"
           >
             <div className="flex items-center gap-[20px]">
               <img
@@ -71,8 +73,8 @@ const Section = () => {
 
         <div className="flex justify-between gap-[30px] mt-[30px]">
           <div
-            data-aos="fade-right"
-            className="py-[30px] px-[30px] rounded-[20px] bg-[#fff] hover:shadow-custom hover:translate-y-[5px] transition-all duration-1000"
+            // data-aos="fade-right"
+            className="py-[30px] px-[30px] rounded-[20px] bg-[#fff] custom-transition"
           >
             <div className="flex items-center gap-[20px]">
               <img src={section2} alt="section2" />
@@ -86,8 +88,8 @@ const Section = () => {
           </div>
 
           <div
-            data-aos="fade-up"
-            className="py-[30px] px-[30px] rounded-[20px] bg-[#fff] hover:shadow-custom hover:translate-y-[5px] transition-all duration-1000"
+            // data-aos="fade-up"
+            className="py-[30px] px-[30px] rounded-[20px] bg-[#fff] custom-transition"
           >
             <div className="flex items-center gap-[20px]">
               <img src={section3} alt="section3" />
@@ -101,8 +103,8 @@ const Section = () => {
           </div>
 
           <div
-            data-aos="fade-left"
-            className="py-[30px] px-[30px] rounded-[20px] bg-[#fff] hover:shadow-custom hover:translate-y-[5px] transition-all duration-1000"
+            // data-aos="fade-left"
+            className="py-[30px] px-[30px] rounded-[20px] bg-[#fff] custom-transition"
           >
             <div className="flex items-center gap-[20px]">
               <img src={section4} alt="section4" />
@@ -118,8 +120,8 @@ const Section = () => {
 
         <div className="flex justify-between mt-[30px]">
           <div
-            data-aos="fade-right"
-            className="max-w-[585px] w-full rounded-[20px] bg-[#fff] p-[30px] hover:shadow-custom hover:translate-y-[5px] transition-all duration-1000"
+            // data-aos="fade-right"
+            className="max-w-[585px] w-full rounded-[20px] bg-[#fff] p-[30px] custom-transition"
           >
             <div className="flex items-center gap-[20px]">
               <img src={section5} alt="section5" />
@@ -133,8 +135,8 @@ const Section = () => {
           </div>
 
           <div
-            data-aos="fade-left"
-            className="max-w-[585px] w-full rounded-[20px] bg-[#fff] p-[30px] hover:shadow-custom hover:translate-y-[5px] transition-all duration-1000"
+            // data-aos="fade-left"
+            className="max-w-[585px] w-full rounded-[20px] bg-[#fff] p-[30px] custom-transition"
           >
             <div className="flex items-center gap-[20px]">
               <img src={section6} alt="section6" />
