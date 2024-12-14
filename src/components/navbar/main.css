@@ -1,0 +1,58 @@
+.language-selector {
+  position: relative;
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 92px; /* Dastlabki kenglik */
+  height: 40px; /* Dastlabki balandlik */
+  overflow: hidden; /* Ichidagi elementlar chiqmasin */
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.language-button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.language-selector:hover .language-button {
+  display: none; /* Hover bo'lganda tugma ichidagi kontent yo'qoladi */
+}
+
+.dropdown {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  opacity: 0; /* Dastlab ko'rinmaydi */
+  transition: opacity 0.3s ease;
+}
+
+.dropdown span {
+  padding: 8px 8px;
+  cursor: pointer;
+}
+
+.dropdown span:hover {
+  background-color: #ffffff;
+}
+
+.language-selector:hover {
+  width: 160px; /* Kenglik kattalashadi */
+  height: 40px; /* Balandlik kattalashadi */
+}
+
+.language-selector:hover .dropdown {
+  opacity: 1; /* Menyu ko'rinadi */
+}

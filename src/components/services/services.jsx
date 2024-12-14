@@ -55,7 +55,7 @@ const Services = () => {
   }, []);
 
   return (
-    <div className="max-w-[1280px] mx-auto mt-[80px]" id="services">
+    <div className="max-w-[1280px] mx-auto pt-[100px]" id="services">
       <p
         data-aos="fade-right"
         className="flex items-center gap-5 font-medium text-[22px] leading-[26px] text-[#2644d9]"

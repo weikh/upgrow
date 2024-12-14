@@ -1,14 +1,16 @@
 import React from "react";
-import { logo } from "../../assets/icons/icons";
+import { logo, language } from "../../assets/icons/icons";
 import { useTranslation } from "react-i18next";
+import "./main.css";
 
 const Navbar = () => {
-  const { t, i18n } = useTranslation();
-  const languages = localStorage.getItem("i18nextLng");
+  const { t, i18n } = useTranslation(); // `useTranslation` orqali tarjima funksiyasi olinadi. `t` - matnlarni tarjima qilish uchun, `i18n` esa tilni o'zgartirish uchun ishlatiladi.
+  const languages = localStorage.getItem("i18nextLng"); // Brauzerdan hozirgi tanlangan tilni `localStorage` orqali olamiz.
 
+  // Tilni o'zgartirish funksiyasi
   const handleChange = (e) => {
-    const selectedLanguage = e.target.value;
-    i18n.changeLanguage(selectedLanguage);
+    const selectedLanguage = e.target.value; // Foydalanuvchi tanlagan til kodini oladi.
+    i18n.changeLanguage(selectedLanguage); // `i18n` yordamida tanlangan tilni o'rnatadi.
   };
 
   return (
@@ -17,33 +19,51 @@ const Navbar = () => {
         <ul>
           <li>
             <a href="#">
-              <img width={176} height={36} src={logo} alt="logo" />
+              <img width={176} height={36} src={logo} alt="logo" />{" "}
             </a>
           </li>
         </ul>
+
         <ul className="flex items-center gap-[50px] font-medium text-[18px] leading-5 text-[#393939]">
           <a href="#company" className="cursor-pointer hover:text-[#2d44d9]">
             {t("about")}
           </a>
           <a href="#services" className="cursor-pointer hover:text-[#2d44d9]">
-            {t("services")}
+            {t("services")} 
           </a>
           <a href="#" className="cursor-pointer hover:text-[#2d44d9]">
             {t("portfolio")}
           </a>
           <a href="#contact" className="cursor-pointer hover:text-[#2d44d9]">
-            {t("contacts")}
+            {t("contacts")} 
           </a>
-          <li>
-            <select
-              className="ml-[60px] h-[30px] rounded-lg border border-[#a7a7a7] outline-none"
-              onChange={handleChange}
-              value={languages}
-            >
-              <option value="uz">Uz</option>
-              <option value="ru">Ru</option>
-              <option value="en">En</option>
-            </select>
+
+          <li className="w-[160px] flex justify-end">
+            <div className="language-selector">
+              <button className="language-button">
+                <img
+                  src={language}
+                  className="mr-[20px]"
+                  width={24}
+                  height={24}
+                  alt="language"
+                />
+                {languages === "uz" ? "Uz" : languages === "ru" ? "Ru" : "En"}
+              </button>
+
+              <div className="dropdown">
+                <img
+                  src={language}
+                  className="ml-[15px]"
+                  width={24}
+                  height={24}
+                  alt="language"
+                />
+                <span onClick={() => i18n.changeLanguage("uz")}>Uz</span>{" "}
+                <span onClick={() => i18n.changeLanguage("ru")}>Ru</span>{" "}
+                <span onClick={() => i18n.changeLanguage("en")}>En</span>{" "}
+              </div>
+            </div>
           </li>
         </ul>
       </div>

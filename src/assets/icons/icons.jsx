@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import hero from "./hero.png";
+import hero from "./hero.svg";
 import companyImg1 from "./company-img1.png";
 import companyImg2 from "./company-img2.png";
 import services1 from "./services1.svg";
@@ -27,6 +27,7 @@ import animatelogo from './animatelogo.svg'
 import sms from './sms.svg'
 import telephone from './telephone.svg'
 import location from './location.svg'
+import language from './language.svg'
 
 export {
   logo,
@@ -58,4 +59,5 @@ export {
   sms,
   telephone,
   location,
+  language
 };

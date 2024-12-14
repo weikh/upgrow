@@ -51,8 +51,8 @@ const Contact = () => {
   }, []);
 
   return (
-    <section className="contact contact-bg" id="contact">
-      <div className="mx-auto py-24  max-w-[1280px] mt-[80px] flex justify-between">
+    <section className="contact contact-bg mt-[100px]" id="contact">
+      <div className="mx-auto py-24  max-w-[1280px] flex justify-between">
         <div className="flex flex-col justify-between max-w-[600px] w-full text-[#fff]">
           <h2
             data-aos="fade-right"
