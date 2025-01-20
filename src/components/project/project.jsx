@@ -16,19 +16,21 @@ const Project = () => {
     });
   });
   return (
-    <div className="h-[300px] mt-[80px] flex flex-col items-center justify-center bg-custom-gradient">
+    <div className="overflow-hidden mt-20 flex flex-col items-center justify-center bg-custom-gradient max-sm:mt-10">
       <h3
         data-aos="fade-left"
-        className="max-w-[842px] mt-[50px] font-bold text-[42px] leading-[63px] text-[#fff] text-center"
+        className="max-w-[842px] mt-10 font-bold text-[42px] leading-[63px] text-[#fff] text-center max-sm:text-lg"
       >
         {t("project")}
       </h3>
-      <button
-        data-aos="fade-right"
-        className="max-w-[250px] py-[10px] px-[50px] mt-[24px] bg-gradient-to-r from-[#3d5aec] to-[#091e84] rounded-[15px] text-white hover:scale-95 hover:brightness-110 transition-transform duration-300"
-      >
-        <a href="tel:+998777084141">{t("project-text")}</a>
-      </button>
+      <a className="w-full text-center mt-11 mb-10 max-sm:mt-4" href="tel:+998777084141">
+        <button
+          data-aos="fade-right"
+          className="max-w-[268px] w-full h-[50px] bg-white rounded-[10px] text-[#1e2f84] text-xl font-medium font-['Clash Display']"
+        >
+          {t("project-text")}
+        </button>
+      </a>
     </div>
   );
 };

@@ -26,7 +26,7 @@ const Section = () => {
   }, []);
 
   return (
-    <div className="max-w-[1280px] mx-auto mt-[80px]">
+    <div className="max-w-7xl mx-auto mt-[80px] max-sm:hidden">
       <p
         data-aos="fade-right"
         className="flex items-center gap-5 font-medium text-[22px] leading-[26px] text-[#2644d9]"

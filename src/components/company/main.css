@@ -4,3 +4,10 @@
    background-position: 380px 10px;
    background-repeat: no-repeat;
 }
+
+@media (max-width: 768px) {
+   .company-bg{
+      background-size: 110px 100px;
+      background-position: 220px 10px;
+   }
+}

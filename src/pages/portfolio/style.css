@@ -1,0 +1,31 @@
+.parent_div {
+  width: 92%;
+  transform: translateX(7.9vw);
+  background-image: url("../../assets/icons/portfolio1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.parent_div1 {
+  width: 92%;
+  transform: translateX(-7.9vw);
+  background-image: url("../../assets/icons/portfolio2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.parent_img1 {
+  background-image: url("../../assets/icons/portfolio1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.parent_img2 {
+  background-image: url("../../assets/icons/portfolio2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

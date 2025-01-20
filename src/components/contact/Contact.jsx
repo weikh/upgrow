@@ -52,16 +52,16 @@ const Contact = () => {
   }, []);
 
   return (
-    <section className="contact contact-bg mt-[100px]" id="contact">
-      <div className="mx-auto py-24  max-w-[1280px] flex justify-between">
+    <section className="overflow-hidden contact contact-bg mt-[100px] max-sm:px-4">
+      <div className="mx-auto py-24  max-w-7xl flex flex-wrap justify-between max-sm:py-10">
         <div className="flex flex-col justify-between max-w-[600px] w-full text-[#fff]">
           <h2
             data-aos="fade-right"
-            className="text-[42px] font-bold leading-[63px]"
+            className="text-[42px] font-bold leading-[63px] max-sm:text-lg max-sm:leading-[27px] max-sm:max-w-[354px] max-sm:text-center"
           >
             {t("contact1")}
           </h2>
-          <div className="my-3">
+          <div className="my-3 max-sm:hidden">
             <p data-aos="fade-right" className="font-medium text-[18px]">
               {t("contact2")}
             </p>
@@ -80,15 +80,15 @@ const Contact = () => {
 
         <div
           data-aos="fade-left"
-          className="flex justify-center w-2/4 items-center"
+          className="flex justify-center max-sm:mt-10 max-sm:max-w-[358px]  max-sm:flex-col"
         >
           <form
             onSubmit={sendMessage}
             id="form"
-            className="w-[520px] rounded-3xl p-7 bg-[#f9f9f9]"
+            className="w-[520px] rounded-3xl p-7 bg-[#f9f9f9] max-sm:max-w-[358px]"
           >
             <div className="flex flex-col mb-3">
-              <label className="ml-[20px] font-normal text-[16px] leading-[19px] text-[#5B5B5B] my-1">
+              <label className="ml-[20px] font-normal text-[16px] leading-[19px] text-[#5B5B5B] my-1 max-sm:max-w-[358px]">
                 {t("contact3")}
               </label>
               <input
@@ -134,6 +134,21 @@ const Contact = () => {
               {loading ? t("contact6") : t("contact7")}
             </button>
           </form>
+          <div className="my-3 text-white max-sm:mt-10 max-sm:mb-3 sm:hidden">
+            <p data-aos="fade-right" className="font-medium text-[18px]">
+              {t("contact2")}
+            </p>
+            <a
+              data-aos="fade-right"
+              href="tel:+998 77 708 41 41"
+              className="flex items-center gap-3 my-3 text-[#fff] transform hover:scale-95 transition-transform duration-300"
+            >
+              <BsTelephoneFill size={36} className='max-sm:w-6 max-sm:h-6' />
+              <p className="text-[32px] font-normal leading-[38.4px] max-sm:text-xl">
+                <span>+998 77 708 41 41</span>
+              </p>
+            </a>
+          </div>
         </div>
       </div>
     </section>

@@ -28,6 +28,15 @@ import sms from './sms.svg'
 import telephone from './telephone.svg'
 import location from './location.svg'
 import language from './language.svg'
+import aboutgroup from './aboutgroup.svg'
+import box1 from './box1.svg'
+import box2 from './box2.svg'
+import box3 from './box3.svg'
+import box4 from './box4.svg'
+import box5 from './box5.svg'
+import box6 from './box6.svg'
+import img1 from './img1.png'
+import img2 from './img2.png'
 
 export {
   logo,
@@ -59,5 +68,14 @@ export {
   sms,
   telephone,
   location,
-  language
+  language,
+  aboutgroup,
+  box1,
+  box2,
+  box3,
+  box4,
+  box5,
+  box6,
+  img1,
+  img2,
 };

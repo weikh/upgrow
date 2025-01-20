@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="max-w-[1280px] mx-auto hero-bg mt-[110px] rounded-[20px]"
+      className="max-w-[1280px] mx-auto hero-bg mt-[110px] rounded-[20px] max-sm:hidden"
     >
       <div className="flex justify-between rounded-[20px]">
         <div className="max-w-[433px] w-full mt-[27px] ml-[90px] mb-[49px] flex flex-col">
