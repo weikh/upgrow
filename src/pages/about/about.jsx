@@ -52,12 +52,12 @@ const values = [
 ];
 
 const ValueCard = ({ icon, title, description }) => (
-  <div className="w-[380px] h-[250px] bg-white rounded-[20px] pt-[30px] shadow-custom">
+  <div className="w-[380px] h-[250px] bg-white rounded-[20px] pt-[30px] shadow-custom max-sm:px-5">
     <img src={icon} className="mx-auto" width={30} height={30} alt={title} />
-    <p className="text-center mt-2 text-[#1e2f84] text-2xl font-semibold">
+    <p className="text-center mt-2 text-[#1e2f84] text-2xl font-semibold max-sm:text-xl">
       {title}
     </p>
-    <p className="max-w-[349px] mx-auto mt-5 text-center text-[#5b5b5b] text-base font-normal leading-relaxed">
+    <p className="max-w-[349px] mx-auto mt-5 text-center text-[#5b5b5b] text-base font-normal leading-relaxed max-sm:text-[#818796] max-sm:text-sm max-sm:leading-[21px]">
       {description}
     </p>
   </div>
@@ -126,7 +126,7 @@ const About = () => {
           </div>
 
           <div className="mt-20 max-sm:mt-[60px]">
-            <h3 className="text-[#1e2f84] text-center text-[42px] font-bold leading-[63px] max-sm:px-4">
+            <h3 className="text-[#1e2f84] text-center text-[42px] font-bold leading-[63px] max-sm:px-4 max-sm:text-xl max-sm:font-semibold max-sm:leading-[30px]">
               QADRIYATLARIMIZ
             </h3>
             <div className="max-w-[1200px] mx-auto mt-[60px] flex flex-wrap justify-between gap-[30px] max-sm:px-4 max-sm:mt-[30px]">

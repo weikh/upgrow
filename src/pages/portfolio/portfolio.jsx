@@ -13,27 +13,27 @@ const Portfolio = () => {
         </h2>
         <ul className="flex justify-between gap-5 text-[#5b5b5b] text-xs font-medium leading-tight max-sm:overflow-x-scroll max-sm:w-full max-sm:gap-[10px] max-sm:text-sm max-sm:pb-2 max-sm:mt-5">
           <li>
-            <button className="h-[25px] px-5 rounded-[50px] border border-[#2644d8] justify-center items-center inline-flex max-sm:w-[90px]">
+            <button className="h-[25px] px-5 rounded-[50px] border border-[#2644d8] justify-center items-center inline-flex max-sm:w-[110px]">
               Veb sayt
             </button>
           </li>
           <li>
-            <button className="h-[25px] px-5 rounded-[50px] border border-[#2644d8] justify-center items-center inline-flex max-sm:w-[100px]">
+            <button className="h-[25px] px-5 rounded-[50px] border border-[#2644d8] justify-center items-center inline-flex max-sm:w-[120px]">
               Mobil ilova
             </button>
           </li>
           <li>
-            <button className="h-[25px] px-5 rounded-[50px] border border-[#2644d8] justify-center items-center inline-flex max-sm:w-[100px]">
+            <button className="h-[25px] px-5 rounded-[50px] border border-[#2644d8] justify-center items-center inline-flex max-sm:w-[120px]">
               CRM tizim
             </button>
           </li>
           <li>
-            <button className="h-[25px] px-5 rounded-[50px] border border-[#2644d8] justify-center items-center inline-flex max-sm:w-[120px]">
+            <button className="h-[25px] px-5 rounded-[50px] border border-[#2644d8] justify-center items-center inline-flex max-sm:w-[140px]">
               E-commerce
             </button>
           </li>
           <li>
-            <button className="h-[25px] px-5 rounded-[50px] border border-[#2644d8] justify-center items-center inline-flex max-sm:w-[110px]">
+            <button className="h-[25px] px-5 rounded-[50px] border border-[#2644d8] justify-center items-center inline-flex max-sm:w-[130px]">
               Startup MVP
             </button>
           </li>
