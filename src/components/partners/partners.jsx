@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useTranslation } from "react-i18next";
 
 // Rasmlarni import qilish
 import {
@@ -16,6 +17,8 @@ import {
 } from "../../assets/icons/icons";
 
 const Partners = () => {
+  const { t } = useTranslation();
+
   useEffect(() => {
     // AOS animatsiyasini boshlash
     AOS.init({
@@ -52,16 +55,14 @@ const Partners = () => {
 
   return (
     <div className="max-w-[1240px] mx-auto mt-[80px]">
-      {/* Sarlavha */}
       <p
         data-aos="fade-right"
-        className="flex items-center gap-5 font-medium text-[22px] leading-[26px] text-[#2644d9] max-sm:px-4"
+        className="flex items-center gap-5 font-medium text-[22px] leading-[26px] text-[#2644d9] max-sm:px-4 max-sm:gap-[10px] max-sm:text-[15px]"
       >
         <span className="h-5 border-[2px] border-[#2644d9] rounded-3xl max-sm:border-[1px]"></span>
-        Bizning hamkorlarimiz
+        {t("partners")}
       </p>
 
-      {/* Slider */}
       <div className="mt-[40px]">
         <Slider {...settings}>
           {[

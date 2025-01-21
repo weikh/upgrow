@@ -130,24 +130,31 @@ const Navbar = () => {
             </li>
 
             <Link
+              onClick={handleOpen}
               to="/about"
               className="mt-20 cursor-pointer hover:text-[#2d44d9]"
             >
               {t("about")}
             </Link>
             <Link
+              onClick={handleOpen}
               to="/services"
               className="cursor-pointer hover:text-[#2d44d9]"
             >
               {t("services")}
             </Link>
             <Link
+              onClick={handleOpen}
               to="/portfolio"
               className="cursor-pointer hover:text-[#2d44d9]"
             >
               {t("portfolio")}
             </Link>
-            <Link to="/contact" className="cursor-pointer hover:text-[#2d44d9]">
+            <Link
+              onClick={handleOpen}
+              to="/contact"
+              className="cursor-pointer hover:text-[#2d44d9]"
+            >
               {t("contacts")}
             </Link>
           </ul>

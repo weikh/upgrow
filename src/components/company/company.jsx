@@ -74,7 +74,7 @@ const Company = () => {
             <a href="tel:+998 77 708 41 41" className="w-full hover:scale-95">
               <button
                 data-aos="fade-right"
-                className="flex items-center gap-[10px] py-[10px] px-[65px] bg-gradient-to-r from-[#3d5aec] to-[#091e84] rounded-[15px] text-white font-medium text-[22px] leading-[26px] max-sm:w-full max-sm:justify-center max-sm:text-base max-sm:font-normal"
+                className="flex items-center gap-[10px] py-[10px] px-[35px] bg-gradient-to-r from-[#3d5aec] to-[#091e84] rounded-[15px] text-white font-medium text-[22px] leading-[26px] max-sm:w-full max-sm:justify-center max-sm:text-base max-sm:font-normal"
               >
                 <BsTelephoneFill size={24} />
                 {t("company-text5")}

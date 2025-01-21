@@ -68,7 +68,7 @@ const Contact = () => {
             <a
               data-aos="fade-right"
               href="tel:+998 77 708 41 41"
-              className="max-w-[278px] flex gap-3 my-3 text-[#fff] transform hover:scale-95 transition-transform duration-300"
+              className="flex gap-3 my-3 text-[#fff] transform hover:scale-95 transition-transform duration-300"
             >
               <BsTelephoneFill size={36} />
               <p className="text-[32px] font-normal leading-[38.4px]">
@@ -143,7 +143,7 @@ const Contact = () => {
               href="tel:+998 77 708 41 41"
               className="flex items-center gap-3 my-3 text-[#fff] transform hover:scale-95 transition-transform duration-300"
             >
-              <BsTelephoneFill size={36} className='max-sm:w-6 max-sm:h-6' />
+              <BsTelephoneFill size={36} className="max-sm:w-6 max-sm:h-6" />
               <p className="text-[32px] font-normal leading-[38.4px] max-sm:text-xl">
                 <span>+998 77 708 41 41</span>
               </p>

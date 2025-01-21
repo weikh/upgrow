@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <footer className="mx-auto  mt-28 max-w-[1280px] my-3">
       <ul className="flex flex-wrap justify-between my-5 max-sm:px-[30px]">
-        <li >
+        <li>
           <a href="#">
             <img
               src={logo}
@@ -27,7 +27,7 @@ const Footer = () => {
           </h2>
           <div className="flex gap-6 mt-[50px] text-[#5B5B5B] max-sm:flex-col">
             <p className="text-[#393939] text-lg font-medium leading-[27px] sm:hidden">
-              Ijtimoiy tarmoqlarimiz
+              {t("footer-text15")}
             </p>
             <div className="flex gap-10">
               <a

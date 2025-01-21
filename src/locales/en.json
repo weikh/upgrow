@@ -2,7 +2,10 @@
   "about": "About Us",
   "services": "Services",
   "portfolio": "Portfolio",
+  "portfolio1": "CRM system",
+  "portfolio2": "Go to the website",
   "contacts": "Contacts",
+  "contacts1": "If you want to get in touch with us, leave your details or call the number below",
 
   "hero-text1": "WE CREATE",
   "hero-text2": "YOUR PROJECT",
@@ -12,6 +15,7 @@
   "erp": "ERP/CRM",
   "commerce": "E-commerce",
   "startup": "Startup MVP",
+  "consultation": "IT consultation",
   "start": "Start Now",
 
   "company-text1": "OUR COMPANY",
@@ -21,6 +25,12 @@
   "company-text5": "Call Us",
 
   "services1": "OUR SERVICES",
+  "services2": "Our services are tailored to the needs of our clients and help ensure their business success. Discover effective solutions with Upgrow.",
+  "services3": "A corporate website plays a crucial role in optimizing client communication, enabling quick information exchange, and strengthening your business image.",
+  "services4": "The ERP (Enterprise Resource Planning) system facilitates data exchange and collaboration between all departments of a company, increasing efficiency and reducing operational costs.",
+  "services5": "We help our clients create high-quality, functional, and user-friendly mobile applications for iOS and Android platforms. Our applications provide a user-friendly interface, high security, and excellent performance.",
+  "services6": "The ERP system facilitates data exchange and collaboration between all departments of a company, increasing efficiency and reducing operational costs.",
+  "services7": "We offer a service for creating modern and user-friendly marketplaces for mobile devices. Full functionality with payment system integration, delivery options, and user search systems.",
   "services1-text1": "Web Development",
   "services1-text2": "Developing web platforms, corporate websites, and online stores of any level that boost your sales",
   "services1-text3": "Corporate for small and large businesses",
@@ -71,7 +81,7 @@
   "section": "OUR VALUES",
   "section-text1": "Your Benefit is Our Profit",
   "section-text2": "Curiosity",
-  "section-text3": "Every project is unique, and we constantly look for new ways to develop it. That’s why we always strive to find innovative solutions.",
+  "section-text3": "Each project is unique, and we are always looking for new ways to develop it. That’s why we are constantly striving to find new solutions.",
   "section-text4": "Challenge",
   "section-text5": "Unlike other companies, we love challenges. That’s why Upgrow exists!",
   "section-text6": "Innovation",
@@ -118,7 +128,13 @@
   "footer-text12": "Projects",
   "footer-text13": "Contact Us",
   "footer-text14": "The rights are reserved.",
+  "footer-text15": "Our social networks",
 
   "success": "Success",
-  "error": "Error"
+  "error": "Error",
+
+  "about1": "WE HELP TAKE YOUR BUSINESS TO THE NEXT LEVEL THROUGH INNOVATIVE SOLUTIONS",
+  "about2": "Upgrow is a dynamically growing IT company specializing in creating innovative digital solutions. We combine cutting-edge technology and expertise to offer unique products and services that help our clients achieve their business goals. Our team consists of highly skilled professionals ready to tackle complex problems and adapt to rapidly changing market conditions.",
+  "about3": "Since 2023, we have been actively operating in the IT product development market in Uzbekistan. We offer unique IT solutions by assembling teams of project managers, business analysts, UI/UX designers, DevOps, backend, and frontend specialists for each project. We provide services to about 40 large companies and startups in various industries, including software development, web and mobile applications, cloud computing, and database management. Our mission is to implement digital transformation and help businesses thrive in the rapidly evolving digital landscape.",
+  "about4": "OUR VALUES"
 }

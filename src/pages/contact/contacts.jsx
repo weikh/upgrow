@@ -41,7 +41,7 @@ const Contacts = () => {
   return (
     <div className="max-w-7xl mx-auto mt-[176px] py-10 px-20 rounded-[20px] bg-[#ffffff] shadow-custom max-sm:p-5 max-sm:bg-inherit max-sm:mt-[106px] max-sm:shadow-none">
       <h2 className="font-medium text-[32px] leading-[39px] text-[#393939] max-sm:text-2xl max-sm:font-semibold max-sm:leading-9">
-        Kontaktlar
+        {t("contacts")}
       </h2>
 
       <div className="mt-10 flex justify-between max-sm:bg-[#ffffff] max-sm:p-5 max-sm:rounded-[10px] max-sm:flex-col max-sm:shadow-custom">
@@ -91,8 +91,7 @@ const Contacts = () => {
 
         <div className="max-w-[410px]">
           <p className="font-medium text-[18px] leading-[27px] text-[#393939] max-sm:hidden">
-            Siz biz bilan bog’lanmoqchi bo’lsangiz, ma’lumotlaringizni yozib
-            qoldiring yoki quyidagi raqamga qo’ng’iroq qilishingiz mumkin
+            {t("contacts1")}
           </p>
           <form
             onSubmit={sendMessage}

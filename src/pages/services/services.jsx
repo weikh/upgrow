@@ -1,36 +1,32 @@
 import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const Services = () => {
+  const { t } = useTranslation();
   const sections = [
     {
-      title: "Veb sayt",
-      description:
-        "Korporativ veb-sayt mijozlar bilan muloqotni optimallashtirish, ma'lumotlar bilan tezkor almashinuvni ta'minlash va biznesingiz imidjini mustahkamlashda muhim rol o'ynaydi.",
+      title: t("veb"),
+      description: (t('services3')),
     },
     {
-      title: "ERP/CRM",
-      description:
-        "ERP (Enterprise Resource Planning) tizimi korxonaning barcha bo'limlari o'rtasida ma'lumot almashinuvi va hamkorlikni ta'minlaydi, bu esa samaradorlikni oshiradi va operatsion xarajatlarni kamaytiradi.",
+      title: t("erp"),
+      description: (t('services4')),
     },
     {
-      title: "Mobil ilova",
-      description:
-        "Biz mijozlarimizga iOS va Android platformalari uchun yuqori sifatli, funksional va foydalanuvchilar uchun qulay mobil ilovalar yaratishda yordam beramiz. Ilovalarimiz foydalanuvchilar uchun qulay interfeys, yuqori xavfsizlik darajasi va mukammal ishlashni ta’minlaydi.",
+      title: t("mobile"),
+      description: (t('services5')),
     },
     {
-      title: "Startup MVP",
-      description:
-        "ERP tizimi korxonaning barcha bo'limlari o'rtasida ma'lumot almashinuvi va hamkorlikni ta'minlaydi, bu esa samaradorlikni oshiradi va operatsion xarajatlarni kamaytiradi.",
+      title: t("services4-text1"),
+      description: (t('services6')),
     },
     {
-      title: "E-commerce",
-      description:
-        "Biz mobil qurilmalar uchun zamonaviy va qulay marketplace yaratish xizmatini taklif qilamiz. To'lov tizimlari integratsiyasi, yetkazib berish opsiyalari va foydalanuvchilar uchun qidiruv tizimlari bilan to'liq funksionallik.",
+      title: t("commerce"),
+      description: (t('services7')),
     },
     {
-      title: "IT konsultatsiya",
-      description:
-        "ERP tizimi korxonaning barcha bo'limlari o'rtasida ma'lumot almashinuvi va hamkorlikni ta'minlaydi, bu esa samaradorlikni oshiradi va operatsion xarajatlarni kamaytiradi.",
+      title: t("consultation"),
+      description: (t('services6')),
     },
   ];
 
@@ -49,12 +45,10 @@ const Services = () => {
   return (
     <div className="max-w-7xl mx-auto mt-[172px] max-sm:px-4">
       <h2 className="text-[#111111] text-center text-[32px] font-semibold leading-[48px] max-sm:text-2xl max-sm:leading-9">
-        XIZMATLARIMIZ
+        {t("footer-text2")}
       </h2>
       <p className="mt-2.5 text-center text-[#393939] text-xl font-medium leading-[30px] max-sm:text-base max-sm:leading-normal">
-        Bizning xizmatlarimiz mijozlarimizning ehtiyojlariga moslashtirilgan va
-        ularning biznes muvaffaqiyatini ta'minlashga yordam beradi. Upgrow bilan
-        samarali yechimlar toping.
+        {t("services2")}
       </p>
 
       <div className="mt-[105px] flex flex-col gap-[10px] max-sm:mt-10">
