@@ -23,10 +23,13 @@ const Project = () => {
       >
         {t("project")}
       </h3>
-      <a className="w-full text-center mt-11 mb-10 max-sm:mt-4" href="tel:+998777084141">
+      <a
+        className="w-full text-center mt-11 mb-10 max-sm:mt-4"
+        href="tel:+998777084141"
+      >
         <button
           data-aos="fade-right"
-          className="max-w-[268px] w-full h-[50px] bg-white rounded-[10px] text-[#1e2f84] text-xl font-medium font-['Clash Display']"
+          className="max-w-[268px] w-full h-[50px] bg-white rounded-[10px] text-[#1e2f84] text-xl font-medium max-sm:text-base max-sm:font-normal"
         >
           {t("project-text")}
         </button>

@@ -33,7 +33,7 @@ const ServicesMobile = () => {
       </p>
       <div className="mt-[30px]">
         <div className="sticky top-[160px] max-w-[380px] w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
-          <div className="flex gap-4 items-center pb-4 border border-b-[#818796] text-[#111111] text-xl font-semibold">
+          <div className="flex gap-4 items-center pb-4 border-b border-b-[#818796] text-[#111111] text-xl font-semibold">
             <img width={20} height={20} src={services1} alt="services1" />{" "}
             {t("services1-text1")}
           </div>
@@ -50,7 +50,7 @@ const ServicesMobile = () => {
         </div>
 
         <div className="sticky top-[230px] max-w-[380px] w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
-          <div className="flex gap-4 items-center pb-4 border border-b-[#818796] text-[#111111] text-xl font-semibold">
+          <div className="flex gap-4 items-center pb-4 border-b border-b-[#818796] text-[#111111] text-xl font-semibold">
             <img width={20} height={20} src={services2} alt="services2" />{" "}
             {t("services2-text1")}
           </div>
@@ -68,7 +68,7 @@ const ServicesMobile = () => {
         </div>
 
         <div className="sticky top-[300px] max-w-[380px] w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
-          <div className="flex gap-4 items-center pb-4 border border-b-[#818796] text-[#111111] text-xl font-semibold">
+          <div className="flex gap-4 items-center pb-4 border-b border-b-[#818796] text-[#111111] text-xl font-semibold">
             <img width={20} height={20} src={services3} alt="services3" />{" "}
             {t("services3-text1")}
           </div>
@@ -85,7 +85,7 @@ const ServicesMobile = () => {
         </div>
 
         <div className="sticky top-[370px] max-w-[380px] w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
-          <div className="flex gap-4 items-center pb-4 border border-b-[#818796] text-[#111111] text-xl font-semibold">
+          <div className="flex gap-4 items-center pb-4 border-b border-b-[#818796] text-[#111111] text-xl font-semibold">
             <img width={20} height={20} src={services4} alt="services4" />{" "}
             {t("services4-text1")}
           </div>
@@ -101,7 +101,7 @@ const ServicesMobile = () => {
         </div>
 
         <div className="sticky top-[440px] max-w-[380px] w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
-          <div className="flex gap-4 items-center pb-4 border border-b-[#818796] text-[#111111] text-xl font-semibold">
+          <div className="flex gap-4 items-center pb-4 border-b border-b-[#818796] text-[#111111] text-xl font-semibold">
             <img width={20} height={20} src={services5} alt="services5" />{" "}
             {t("services5-text1")}
           </div>
@@ -117,7 +117,7 @@ const ServicesMobile = () => {
         </div>
 
         <div className="sticky top-[510px] max-w-[380px] w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
-          <div className="flex gap-4 items-center pb-4 border border-b-[#818796] text-[#111111] text-xl font-semibold">
+          <div className="flex gap-4 items-center pb-4 border-b border-b-[#818796] text-[#111111] text-xl font-semibold">
             <img width={20} height={20} src={services6} alt="services6" />{" "}
             {t("services6-text1")}
           </div>

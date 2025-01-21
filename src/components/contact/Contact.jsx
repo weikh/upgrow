@@ -129,7 +129,7 @@ const Contact = () => {
             <button
               loading={loading}
               type="submit"
-              className="contact-btn-bg w-full mt-6 h-[46px] text-[#fff] text-[22px] leading-[26px] font-medium rounded-lg"
+              className="contact-btn-bg w-full mt-6 h-[46px] text-[#fff] text-[22px] leading-[26px] font-medium rounded-lg max-sm:text-base max-sm:font-normal"
             >
               {loading ? t("contact6") : t("contact7")}
             </button>
