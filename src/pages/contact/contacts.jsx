@@ -10,13 +10,15 @@ const Contacts = () => {
   const sendMessage = (e) => {
     setLoading(true);
     e.preventDefault();
-    const token = "7502554917:AAHm-8pBtm6ejWkZpnyKKzPxGiGdVqVESTs";
-    const chatId = 1546796954;
+    const token = "6813259261:AAEJKDtww2rVu73wT9ns9wy_6epU1C-u0DU";
+    // const token = "7502554917:AAHm-8pBtm6ejWkZpnyKKzPxGiGdVqVESTs";
+    const chatId = -1002158530694;
+    // const chatId = 6813259261;
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
     const name = document.getElementById("name").value;
     const telephone = document.getElementById("telephone").value;
     const email = document.getElementById("email").value;
-    const messageContent = `Ismi: ${name} \n Telefon raqami: ${telephone} \n Email: ${email}`;
+    const messageContent = `💻Web saytdan mijoz\n Ismi: ${name} \n Telefon raqami: ${telephone} \n Email: ${email}`;
 
     axios({
       url: url,
