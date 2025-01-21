@@ -1,17 +1,14 @@
-import filters from 'tailwindcss-filters';
+import filters from "tailwindcss-filters";
 
 export default {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      container:{
+      container: {
         center: true,
       },
-      /* fontFamily: {
-        sans: ['clash', "sans-serif"],
-      }, */
       fontFamily: {
-        sans: ['clash'],
+        sans: ["clash"],
       },
       fontWeight: {
         light: 300,

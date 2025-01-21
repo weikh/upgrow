@@ -25,14 +25,12 @@ const ServicesMobile = () => {
 
   return (
     <div className="max-w-[1280px] mx-auto pt-[100px] px-4 sm:hidden">
-      <p
-        className="sticky top-[110px] flex items-center gap-[10px] font-medium text-[15px] text-[#2644d9]"
-      >
+      <p className="sticky top-[110px] flex items-center gap-[10px] font-medium text-[15px] text-[#2644d9]">
         <span className="h-4 border-[1px] border-[#2644d9] rounded-3xl"></span>
         {t("services1")}
       </p>
       <div className="mt-[30px]">
-        <div className="sticky top-[160px] max-w-[380px] w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
+        <div className="sticky top-[160px] max-w-[380px] mx-auto w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
           <div className="flex gap-4 items-center pb-4 border-b border-b-[#818796] text-[#111111] text-xl font-semibold">
             <img width={20} height={20} src={services1} alt="services1" />{" "}
             {t("services1-text1")}
@@ -49,7 +47,7 @@ const ServicesMobile = () => {
           </ul>
         </div>
 
-        <div className="sticky top-[230px] max-w-[380px] w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
+        <div className="sticky top-[230px] max-w-[380px] mx-auto w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
           <div className="flex gap-4 items-center pb-4 border-b border-b-[#818796] text-[#111111] text-xl font-semibold">
             <img width={20} height={20} src={services2} alt="services2" />{" "}
             {t("services2-text1")}
@@ -67,7 +65,7 @@ const ServicesMobile = () => {
           </ul>
         </div>
 
-        <div className="sticky top-[300px] max-w-[380px] w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
+        <div className="sticky top-[300px] max-w-[380px] mx-auto w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
           <div className="flex gap-4 items-center pb-4 border-b border-b-[#818796] text-[#111111] text-xl font-semibold">
             <img width={20} height={20} src={services3} alt="services3" />{" "}
             {t("services3-text1")}
@@ -84,7 +82,7 @@ const ServicesMobile = () => {
           </ul>
         </div>
 
-        <div className="sticky top-[370px] max-w-[380px] w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
+        <div className="sticky top-[370px] max-w-[380px] mx-auto w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
           <div className="flex gap-4 items-center pb-4 border-b border-b-[#818796] text-[#111111] text-xl font-semibold">
             <img width={20} height={20} src={services4} alt="services4" />{" "}
             {t("services4-text1")}
@@ -100,7 +98,7 @@ const ServicesMobile = () => {
           </ul>
         </div>
 
-        <div className="sticky top-[440px] max-w-[380px] w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
+        <div className="sticky top-[440px] max-w-[380px] mx-auto w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
           <div className="flex gap-4 items-center pb-4 border-b border-b-[#818796] text-[#111111] text-xl font-semibold">
             <img width={20} height={20} src={services5} alt="services5" />{" "}
             {t("services5-text1")}
@@ -116,7 +114,7 @@ const ServicesMobile = () => {
           </ul>
         </div>
 
-        <div className="sticky top-[510px] max-w-[380px] w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
+        <div className="sticky top-[510px] max-w-[380px] mx-auto w-full rounded-[10px] my-2.5 p-5 bg-gradient-to-b from-[#d4dbff] to-white shadow-custom">
           <div className="flex gap-4 items-center pb-4 border-b border-b-[#818796] text-[#111111] text-xl font-semibold">
             <img width={20} height={20} src={services6} alt="services6" />{" "}
             {t("services6-text1")}

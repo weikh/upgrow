@@ -41,23 +41,23 @@ const About = () => {
     },
     {
       icon: box3,
-      title: t('section-text8'),
-      description: t('section-text9'),
+      title: t("section-text8"),
+      description: t("section-text9"),
     },
     {
       icon: box4,
-      title: t('section-text4'),
-      description: t('section-text5'),
+      title: t("section-text4"),
+      description: t("section-text5"),
     },
     {
       icon: box5,
-      title: t('section-text10'),
-      description: t('section-text11'),
+      title: t("section-text10"),
+      description: t("section-text11"),
     },
     {
       icon: box6,
-      title: t('section-text12'),
-      description: t('section-text13'),
+      title: t("section-text12"),
+      description: t("section-text13"),
     },
   ];
 
@@ -108,7 +108,7 @@ const About = () => {
             <h3 className="text-[#1e2f84] text-center text-[42px] font-bold leading-[63px] max-sm:px-4 max-sm:text-xl max-sm:font-semibold max-sm:leading-[30px]">
               {t("about4")}
             </h3>
-            <div className="max-w-[1200px] mx-auto mt-[60px] flex flex-wrap justify-between gap-[30px] max-sm:px-4 max-sm:mt-[30px]">
+            <div className="max-w-[1200px] mx-auto mt-[60px] flex justify-between gap-[30px] max-sm:px-4 max-sm:mt-[30px] max-sm:flex-col max-sm:items-center">
               {values.map((value, index) => (
                 <ValueCard key={index} {...value} />
               ))}

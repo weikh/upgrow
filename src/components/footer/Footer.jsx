@@ -8,6 +8,7 @@ import {
   FaFacebook,
   FaLinkedin,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -90,80 +91,80 @@ const Footer = () => {
         </li>
         <div className="max-w-[800px] w-full flex justify-between max-sm:mt-[30px] max-sm:flex-col max-sm:gap-[30px]">
           <li className="flex flex-col gap-4 max-sm:gap-2">
-            <a
-              href="#"
+            <Link
+              to="/"
               className="font-medium leading-[24px] text-[#2644D9] mb-5 hover:text-[#2644D9] transition-all max-sm:mb-2.5"
             >
               {t("footer-text2")}
-            </a>
-            <a
-              href="#services"
+            </Link>
+            <Link
+              to="/services"
               className="font-medium text-[#393939] leading-[24px] hover:text-[#2644D9] transition-all"
             >
               {t("footer-text3")}
-            </a>
-            <a
-              href="#services"
+            </Link>
+            <Link
+              to="/services"
               className="font-medium text-[#393939] leading-[24px] hover:text-[#2644D9] transition-all"
             >
               {t("footer-text4")}
-            </a>
-            <a
-              href="#services"
+            </Link>
+            <Link
+              to="/services"
               className="font-medium text-[#393939] leading-[24px] hover:text-[#2644D9] transition-all"
             >
               {t("footer-text5")}
-            </a>
-            <a
-              href="#services"
+            </Link>
+            <Link
+              to="/services"
               className="font-medium text-[#393939] leading-[24px] hover:text-[#2644D9] transition-all"
             >
               {t("footer-text6")}
-            </a>
-            <a
-              href="#services"
+            </Link>
+            <Link
+              to="/services"
               className="font-medium text-[#393939] leading-[24px] hover:text-[#2644D9] transition-all"
             >
               {t("footer-text7")}
-            </a>
-            <a
-              href="#services"
+            </Link>
+            <Link
+              to="/services"
               className="font-medium text-[#393939] leading-[24px] hover:text-[#2644D9] transition-all"
             >
               {t("footer-text8")}
-            </a>
+            </Link>
           </li>
           <li className="flex flex-col gap-4 max-sm:gap-2">
-            <a
-              href="#"
+            <Link
+              to="/"
               className="font-medium  leading-[24px]  text-[#2644D9] mb-5 hover:text-[#2644D9] transition-all max-sm:mb-2.5"
             >
               {t("footer-text9")}
-            </a>
-            <a
-              href="#company"
+            </Link>
+            <Link
+              to="/about"
               className="font-medium text-[#393939] leading-[24px] hover:text-[#2644D9] transition-all"
             >
               {t("footer-text10")}
-            </a>
-            <a
-              href="#services"
+            </Link>
+            <Link
+              to="/services"
               className="font-medium text-[#393939] leading-[24px] hover:text-[#2644D9] transition-all"
             >
               {t("footer-text11")}
-            </a>
-            <a
-              href="#hero"
+            </Link>
+            <Link
+              to="/portfolio"
               className="font-medium text-[#393939] leading-[24px] hover:text-[#2644D9] transition-all"
             >
               {t("footer-text12")}
-            </a>
-            <a
-              href="#contact"
+            </Link>
+            <Link
+              to="/contact"
               className="font-medium text-[#393939] leading-[24px] hover:text-[#2644D9] transition-all"
             >
               {t("footer-text13")}
-            </a>
+            </Link>
           </li>
           <li></li>
         </div>

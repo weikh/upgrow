@@ -7,6 +7,6 @@
 
 @media (max-width: 640px) {
   .about_bg {
-    background-size: 600px 584px; /* max-sm uchun width va height ni o'zgartirish */
+    background-image: url('../../assets/icons/aboutbg1.png');
   }
 }

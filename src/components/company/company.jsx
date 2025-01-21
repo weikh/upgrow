@@ -46,21 +46,15 @@ const Company = () => {
         </div>
 
         <div className="max-w-[580px] mt-[40px] ml-[40px] company-bg max-sm:ml-0">
-          {/* <p
-            data-aos="fade-right"
-            className="font-normal text-[24px] leading-[43px] text-[#2644d9]"
-          >
-            {t("company-text2")}
-          </p> */}
           <h2
             data-aos="fade-left"
-            className="max-w-[570px] font-bold text-[52px] leading-[78px] text-[#1e2f84] max-sm:max-w-[356px] max-sm:text-2xl max-sm:text-center max-sm:leading-9"
+            className="max-w-[570px] font-bold text-[52px] leading-[78px] text-[#1e2f84] max-sm:text-2xl max-sm:text-center max-sm:leading-9"
           >
             {t("company-text3")}
           </h2>
           <p
             data-aos="fade-right"
-            className="mt-5 font-normal text-[24px] leading-9 text-[#393939] max-sm:max-w-[326px] max-sm:text-base"
+            className="mt-5 font-normal text-[24px] leading-9 text-[#393939] max-sm:text-base"
           >
             {t("company-taxt4")}
           </p>

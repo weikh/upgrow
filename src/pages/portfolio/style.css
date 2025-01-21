@@ -1,6 +1,6 @@
 .parent_div {
   width: 92%;
-  transform: translateX(7.9vw);
+  transform: translateX(8%);
   background-image: url("../../assets/icons/portfolio1.png");
   background-size: cover;
   background-position: center;
@@ -9,7 +9,7 @@
 
 .parent_div1 {
   width: 92%;
-  transform: translateX(-7.9vw);
+  /* transform: translateX(-8%); */
   background-image: url("../../assets/icons/portfolio2.png");
   background-size: cover;
   background-position: center;

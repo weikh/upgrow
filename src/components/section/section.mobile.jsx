@@ -60,7 +60,7 @@ const SectionMobile = () => {
               {t("section-text2")}
             </p>
           </div>
-          <p className="max-w-[318px] mt-2.5 text-center text-[#818796] text-sm font-normal leading-[21px]">
+          <p className="mt-2.5 text-center text-[#818796] text-sm font-normal leading-[21px]">
             {t("section-text3")}
           </p>
         </div>
@@ -75,7 +75,7 @@ const SectionMobile = () => {
               {t("section-text4")}
             </p>
           </div>
-          <p className="max-w-[318px] mt-2.5 text-center text-[#818796] text-sm font-normal leading-[21px]">
+          <p className="mt-2.5 text-center text-[#818796] text-sm font-normal leading-[21px]">
             {t("section-text5")}
           </p>
         </div>
@@ -90,7 +90,7 @@ const SectionMobile = () => {
               {t("section-text6")}
             </p>
           </div>
-          <p className="max-w-[318px] mt-2.5 text-center text-[#818796] text-sm font-normal leading-[21px]">
+          <p className="mt-2.5 text-center text-[#818796] text-sm font-normal leading-[21px]">
             {t("section-text7")}
           </p>
         </div>
@@ -105,7 +105,7 @@ const SectionMobile = () => {
               {t("section-text8")}
             </p>
           </div>
-          <p className="max-w-[318px] mt-2.5 text-center text-[#818796] text-sm font-normal leading-[21px]">
+          <p className="mt-2.5 text-center text-[#818796] text-sm font-normal leading-[21px]">
             {t("section-text9")}
           </p>
         </div>
@@ -120,7 +120,7 @@ const SectionMobile = () => {
               {t("section-text10")}
             </p>
           </div>
-          <p className="max-w-[318px] mt-2.5 text-center text-[#818796] text-sm font-normal leading-[21px]">
+          <p className="mt-2.5 text-center text-[#818796] text-sm font-normal leading-[21px]">
             {t("section-text11")}
           </p>
         </div>
@@ -135,7 +135,7 @@ const SectionMobile = () => {
               {t("section-text12")}
             </p>
           </div>
-          <p className="max-w-[318px] mt-2.5 text-center text-[#818796] text-sm font-normal leading-[21px]">
+          <p className="mt-2.5 text-center text-[#818796] text-sm font-normal leading-[21px]">
             {t("section-text13")}
           </p>
         </div>

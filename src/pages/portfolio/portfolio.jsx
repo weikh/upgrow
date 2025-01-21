@@ -34,7 +34,7 @@ const Portfolio = () => {
       </div>
       <div className="mt-10 flex flex-col gap-5 max-sm:hidden">
         <div className="rounded-tl-[20px] rounded-bl-[20px] parent_div">
-          <div className="max-w-7xl flex justify-between">
+          <div className="container max-w-7xl flex justify-between">
             <div>
               <img
                 src={img1}
@@ -67,8 +67,8 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="flex justify-end rounded-tr-[20px] rounded-br-[20px] parent_div1">
-          <div className="max-w-7xl flex gap-20 justify-between">
+        <div className="rounded-tr-[20px] rounded-br-[20px] parent_div1">
+          <div className="ml-auto container max-w-7xl flex gap-20 justify-between">
             <div className="max-w-[580px] w-full h-[436px] pt-10 relative">
               <div className="flex justify-between items-center">
                 <p className="text-white text-4xl font-semibold">Topuy</p>
