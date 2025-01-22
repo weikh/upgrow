@@ -55,7 +55,7 @@ const Services = () => {
         {sections.map((section, index) => (
           <div
             key={index}
-            className="sticky pt-10 pb-20 px-[60px] bg-white rounded-[20px] shadow-custom z-[1] max-sm:px-5 max-sm:pb-5"
+            className="sticky pt-10 pb-20 px-[60px] bg-white rounded-[20px] drop-shadow-custom z-[1] max-sm:px-5 max-sm:pb-5"
             style={{
               maxHeight: "calc(100vh - 150px)",
               overflowY: "auto",
