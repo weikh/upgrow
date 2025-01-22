@@ -1,25 +1,43 @@
 import React, { useState } from "react";
 import { logo, language } from "../../assets/icons/icons";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { MdOutlineClose } from "react-icons/md";
 import "./main.css";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const { t, i18n } = useTranslation(); // `useTranslation` orqali tarjima funksiyasi olinadi. `t` - matnlarni tarjima qilish uchun, `i18n` esa tilni o'zgartirish uchun ishlatiladi.
-  const languages = localStorage.getItem("i18nextLng"); // Brauzerdan hozirgi tanlangan tilni `localStorage` orqali olamiz.
+  const { t, i18n } = useTranslation();
+  const languages = localStorage.getItem("i18nextLng");
 
-  // Tilni o'zgartirish funksiyasi
   const handleChange = (e) => {
-    const selectedLanguage = e.target.value; // Foydalanuvchi tanlagan til kodini oladi.
-    i18n.changeLanguage(selectedLanguage); // `i18n` yordamida tanlangan tilni o'rnatadi.
+    const selectedLanguage = e.target.value;
+    i18n.changeLanguage(selectedLanguage);
   };
 
   const handleOpen = () => {
     setOpen(!open);
   };
+
+  const location = useLocation();
+
+  const isActive = (path) => {
+    switch (path) {
+      case "/":
+        return "home";
+      case "/about":
+        return "about";
+      case "/services":
+        return "services";
+      case "/portfolio":
+        return "portfolio";
+      case "/contact":
+        return "contact";
+    }
+  };
+
+  const active = isActive(location.pathname);
 
   return (
     <div className="bg-[#f7f9fd] border border-transparent">
@@ -43,22 +61,36 @@ const Navbar = () => {
             </li>
           </ul>
           <ul className="max-lg:hidden flex items-center gap-[50px] text-[#393939] text-lg font-medium">
-            <Link to="/about" className="cursor-pointer hover:text-[#2d44d9]">
+            <Link
+              to="/about"
+              className={`cursor-pointer hover:text-[#2d44d9] ${
+                active === "about" ? "text-[#2d44d9]" : ""
+              }`}
+            >
               {t("about")}
             </Link>
             <Link
               to="/services"
-              className="cursor-pointer hover:text-[#2d44d9]"
+              className={`cursor-pointer hover:text-[#2d44d9] ${
+                active === "services" ? "text-[#2d44d9]" : ""
+              }`}
             >
               {t("services")}
             </Link>
             <Link
               to="/portfolio"
-              className="cursor-pointer hover:text-[#2d44d9]"
+              className={`cursor-pointer hover:text-[#2d44d9] ${
+                active === "portfolio" ? "text-[#2d44d9]" : ""
+              }`}
             >
               {t("portfolio")}
             </Link>
-            <Link to="/contact" className="cursor-pointer hover:text-[#2d44d9]">
+            <Link
+              to="/contact"
+              className={`cursor-pointer hover:text-[#2d44d9] ${
+                active === "contact" ? "text-[#2d44d9]" : ""
+              }`}
+            >
               {t("contacts")}
             </Link>
 

@@ -6,6 +6,7 @@ import { BsTelephoneFill } from "react-icons/bs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./main.css";
+import { Link } from "react-router-dom";
 
 const Company = () => {
   const { t } = useTranslation();
@@ -59,12 +60,14 @@ const Company = () => {
             {t("company-taxt4")}
           </p>
           <div className="flex items-center gap-[30px] mt-[85px] max-sm:mt-[60px] max-sm:flex-col">
-            <button
-              data-aos="fade-left"
-              className="flex items-center gap-[10px] py-2 px-[65px] border-[2px] border-[#2644d9] rounded-[15px] font-medium text-[22px] leading-[26px] text-[#2644d9] hover:!scale-95 max-sm:hidden"
-            >
-              {t("portfolio")} <PiArrowUpRightBold color="#2644d9" />
-            </button>
+            <Link to="/portfolio">
+              <button
+                data-aos="fade-left"
+                className="flex items-center gap-[10px] py-2 px-[65px] border-[2px] border-[#2644d9] rounded-[15px] font-medium text-[22px] leading-[26px] text-[#2644d9] hover:!scale-95 max-sm:hidden"
+              >
+                {t("portfolio")} <PiArrowUpRightBold color="#2644d9" />
+              </button>
+            </Link>
             <a href="tel:+998 77 708 41 41" className="w-full hover:scale-95">
               <button
                 data-aos="fade-right"
