@@ -37,7 +37,7 @@ const PortfolioMobile = () => {
           </div>
         </div>
 
-        <div className="mt-[130px] relative parent_img2 border border-black rounded-[10px]">
+        <div className="mt-[130px] relative parent_img2 rounded-[10px]">
           <div className="absolute -top-[140px] left-0 right-0">
             <img
               src={img2}

@@ -15,19 +15,19 @@ const Portfolio = () => {
           {t("portfolio")}
         </h2>
         <div className="flex justify-between gap-5 text-[#5b5b5b] text-xs font-medium leading-tight max-sm:overflow-x-scroll max-sm:w-full max-sm:gap-[10px] max-sm:text-sm max-sm:pb-3 max-sm:mt-5">
-          <button className="h-[25px] px-5 rounded-[50px] border border-[#2644d8] justify-center items-center inline-flex max-sm:min-w-[150px]">
+          <button className="h-[25px] px-5 rounded-[50px] border border-[#5b5b5b] justify-center items-center inline-flex max-sm:min-w-[150px]">
             {t("veb")}
           </button>
-          <button className="h-[25px] px-5 rounded-[50px] border border-[#2644d8] justify-center items-center inline-flex max-sm:min-w-[200px]">
+          <button className="h-[25px] px-5 rounded-[50px] border border-[#5b5b5b] justify-center items-center inline-flex max-sm:min-w-[200px]">
             {t("mobile")}
           </button>
-          <button className="h-[25px] px-5 rounded-[50px] border border-[#2644d8] justify-center items-center inline-flex max-sm:min-w-[150px]">
+          <button className="h-[25px] px-5 rounded-[50px] border border-[#5b5b5b] justify-center items-center inline-flex max-sm:min-w-[150px]">
             {t("portfolio1")}
           </button>
-          <button className="h-[25px] px-5 rounded-[50px] border border-[#2644d8] justify-center items-center inline-flex max-sm:min-w-[150px]">
+          <button className="h-[25px] px-5 rounded-[50px] border border-[#5b5b5b] justify-center items-center inline-flex max-sm:min-w-[150px]">
             {t("commerce")}
           </button>
-          <button className="h-[25px] px-5 rounded-[50px] border border-[#2644d8] justify-center items-center inline-flex max-sm:min-w-[150px]">
+          <button className="h-[25px] px-5 rounded-[50px] border border-[#5b5b5b] justify-center items-center inline-flex max-sm:min-w-[150px]">
             {t("startup")}
           </button>
         </div>
