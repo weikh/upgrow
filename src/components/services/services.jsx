@@ -66,136 +66,100 @@ const Services = () => {
       </p>
       <div className="mt-[0px]">
         <Slider {...settings}>
-          <div className="max-w-[380px] w-full h-[540px] rounded-[20px] my-[40px] p-[30px] bg-gradient-to-b from-[#EEFCFF] to-[#FFFFFF] shadow-custom">
-            <div className="flex gap-4 items-center font-semibold text-[28px] leading-[48px] text-[#3939393]">
+          <div className="max-w-[380px] w-full h-[470px] rounded-[20px] my-[40px] p-[30px] bg-gradient-to-b from-[#d4dbff] to-white hover:bg-none shadow-custom">
+            <div className="flex gap-4 pb-[30px] items-center font-semibold text-2xl text-[#111111] border-b border-b-[#818796]">
               <img width={24} height={24} src={services1} alt="services1" />{" "}
               {t("services1-text1")}
             </div>
-            <p className="max-w-[285px] mt-[31px] font-normal text-base leading-[25px] text-[#393939]">
+            <p className="max-w-[285px] mt-[30px] font-medium text-base leading-relaxed text-[#393939]">
               {t("services1-text2")}
             </p>
-            <p className="mt-[56px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services1-text3")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services1-text4")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services1-text5")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services1-text6")}
-            </p>
+            <ul className="list-disc ml-[15px] mt-[30px] max-w-[310px] text-[#393939] text-base font-normal leading-relaxed space-y-2 marker:text-[#393939]">
+              <li>{t("services1-text3")}</li>
+              <li>{t("services1-text4")}</li>
+              <li>{t("services1-text5")}</li>
+              <li>{t("services1-text6")}</li>
+            </ul>
           </div>
 
-          <div className="max-w-[380px] w-full h-[540px] rounded-[20px] my-[40px] p-[30px] bg-gradient-to-b from-[#EAF2FF] to-[#FFFFFF] shadow-custom">
-            <div className="flex gap-4 font-semibold text-[28px] leading-[48px] text-[#3939393]">
+          <div className="max-w-[380px] w-full h-[470px] rounded-[20px] my-[40px] p-[30px] bg-gradient-to-b from-[#d4dbff] to-white hover:bg-none shadow-custom">
+            <div className="flex gap-4 pb-[30px] items-center font-semibold text-2xl text-[#111111] border-b border-b-[#818796]">
               <img width={24} height={24} src={services2} alt="services2" />{" "}
               {t("services2-text1")}
             </div>
-            <p className="max-w-[285px] mt-[31px] font-normal text-base leading-[25px] text-[#393939]">
+            <p className="max-w-[285px] mt-[30px] font-medium text-base leading-relaxed text-[#393939]">
               {t("services2-text2")}
             </p>
-            <p className="mt-[56px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services2-text3")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services2-text4")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services2-text5")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services2-text6")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services2-text7")}
-            </p>
+            <ul className="list-disc ml-[15px] mt-[30px] max-w-[310px] text-[#393939] text-base font-normal leading-relaxed space-y-2 marker:text-[#393939]">
+              <li>{t("services2-text3")}</li>
+              <li>{t("services2-text4")}</li>
+              <li>{t("services2-text5")}</li>
+              <li>{t("services2-text6")}</li>
+              <li>{t("services2-text7")}</li>
+            </ul>
           </div>
 
-          <div className="max-w-[380px] w-full h-[540px] rounded-[20px] my-[40px] p-[30px] bg-gradient-to-b from-[#FFF0F5] to-[#FFFFFF] shadow-custom">
-            <div className="flex gap-4 items-center font-semibold text-[28px] leading-[48px] text-[#3939393]">
+          <div className="max-w-[380px] w-full h-[470px] rounded-[20px] my-[40px] p-[30px] bg-gradient-to-b from-[#d4dbff] to-white hover:bg-none shadow-custom">
+            <div className="flex gap-4 pb-[30px] items-center font-semibold text-2xl text-[#111111] border-b border-b-[#818796]">
               <img width={24} height={24} src={services3} alt="services3" />{" "}
-              {t("services3-text1")}
+              {t("services1-text1")}
             </div>
-            <p className="max-w-[285px] mt-[31px] font-normal text-base leading-[25px] text-[#393939]">
+            <p className="max-w-[285px] mt-[30px] font-medium text-base leading-relaxed text-[#393939]">
               {t("services3-text2")}
             </p>
-            <p className="mt-[56px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services3-text3")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services3-text4")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services3-text5")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services3-text6")}
-            </p>
+            <ul className="list-disc ml-[15px] mt-[30px] max-w-[310px] text-[#393939] text-base font-normal leading-relaxed space-y-2 marker:text-[#393939]">
+              <li>{t("services3-text3")}</li>
+              <li>{t("services3-text4")}</li>
+              <li>{t("services3-text5")}</li>
+              <li>{t("services3-text6")}</li>
+            </ul>
           </div>
 
-          <div className="max-w-[380px] w-full h-[540px] rounded-[20px] my-[40px] p-[30px] bg-gradient-to-b from-[#FEFFF1] to-[#FFFFFF] shadow-custom">
-            <div className="flex gap-4 items-center font-semibold text-[28px] leading-[48px] text-[#3939393]">
+          <div className="max-w-[380px] w-full h-[470px] rounded-[20px] my-[40px] p-[30px] bg-gradient-to-b from-[#d4dbff] to-white hover:bg-none shadow-custom">
+            <div className="flex gap-4 pb-[30px] items-center font-semibold text-2xl text-[#111111] border-b border-b-[#818796]">
               <img width={24} height={24} src={services4} alt="services4" />{" "}
               {t("services4-text1")}
             </div>
-            <p className="max-w-[285px] mt-[31px] font-normal text-base leading-[25px] text-[#393939]">
+            <p className="max-w-[285px] mt-[30px] font-medium text-base leading-relaxed text-[#393939]">
               {t("services4-text2")}
             </p>
-            <p className="mt-[56px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services4-text3")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services4-text4")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services4-text5")}
-            </p>
+            <ul className="list-disc ml-[15px] mt-[30px] max-w-[310px] text-[#393939] text-base font-normal leading-relaxed space-y-2 marker:text-[#393939]">
+              <li>{t("services4-text3")}</li>
+              <li>{t("services4-text4")}</li>
+              <li>{t("services4-text5")}</li>
+            </ul>
           </div>
 
-          <div className="max-w-[380px] w-full h-[540px] rounded-[20px] my-[40px] p-[30px] bg-gradient-to-b from-[#F7EDFF] to-[#FFFFFF] shadow-custom">
-            <div className="flex gap-4 items-center font-semibold text-[28px] leading-[48px] text-[#3939393]">
+          <div className="max-w-[380px] w-full h-[470px] rounded-[20px] my-[40px] p-[30px] bg-gradient-to-b from-[#d4dbff] to-white hover:bg-none shadow-custom">
+            <div className="flex gap-4 pb-[30px] items-center font-semibold text-2xl text-[#111111] border-b border-b-[#818796]">
               <img width={24} height={24} src={services5} alt="services5" />{" "}
               {t("services5-text1")}
             </div>
-            <p className="max-w-[285px] mt-[31px] font-normal text-base leading-[25px] text-[#393939]">
+            <p className="max-w-[285px] mt-[30px] font-medium text-base leading-relaxed text-[#393939]">
               {t("services5-text2")}
             </p>
-            <p className="mt-[56px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services5-text3")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services5-text4")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services5-text5")}
-            </p>
+            <ul className="list-disc ml-[15px] mt-[30px] max-w-[310px] text-[#393939] text-base font-normal leading-relaxed space-y-2 marker:text-[#393939]">
+              <li>{t("services5-text3")}</li>
+              <li>{t("services5-text4")}</li>
+              <li>{t("services5-text5")}</li>
+            </ul>
           </div>
 
-          <div className="max-w-[380px] w-full h-[540px] rounded-[20px] my-[40px] p-[30px] bg-gradient-to-b from-[#EEFFF1] to-[#FFFFFF] shadow-custom">
-            <div className="flex gap-4 items-center font-semibold text-[28px] leading-[48px] text-[#3939393]">
+          <div className="max-w-[380px] w-full h-[470px] rounded-[20px] my-[40px] p-[30px] bg-gradient-to-b from-[#d4dbff] to-white hover:bg-none shadow-custom">
+            <div className="flex gap-4 pb-[30px] items-center font-semibold text-2xl text-[#111111] border-b border-b-[#818796]">
               <img width={24} height={24} src={services6} alt="services6" />{" "}
               {t("services6-text1")}
             </div>
-            <p className="max-w-[285px] mt-[31px] font-normal text-base leading-[25px] text-[#393939]">
+            <p className="max-w-[285px] mt-[30px] font-medium text-base leading-relaxed text-[#393939]">
               {t("services6-text2")}
             </p>
-            <p className="mt-[56px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services6-text3")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services6-text4")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services6-text5")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services6-text6")}
-            </p>
-            <p className="mt-[10px] font-medium text-[18px] leading-[28px] text-[#1e2f84]">
-              {t("services6-text7")}
-            </p>
+            <ul className="list-disc ml-[15px] mt-[30px] max-w-[310px] text-[#393939] text-base font-normal leading-relaxed space-y-2 marker:text-[#393939]">
+              <li>{t("services6-text3")}</li>
+              <li>{t("services6-text4")}</li>
+              <li>{t("services6-text5")}</li>
+              <li>{t("services6-text6")}</li>
+              <li>{t("services6-text7")}</li>
+            </ul>
           </div>
         </Slider>
       </div>

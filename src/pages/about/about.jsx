@@ -108,7 +108,7 @@ const About = () => {
             <h3 className="text-[#1e2f84] text-center text-[42px] font-bold leading-[63px] max-sm:px-4 max-sm:text-xl max-sm:font-semibold max-sm:leading-[30px]">
               {t("about4")}
             </h3>
-            <div className="max-w-[1200px] mx-auto mt-[60px] flex justify-between gap-[30px] max-sm:px-4 max-sm:mt-[30px] max-sm:flex-col max-sm:items-center">
+            <div className="max-w-[1200px] mx-auto mt-[60px] flex flex-wrap justify-between gap-[30px] max-sm:px-4 max-sm:mt-[30px] max-sm:flex-col max-sm:items-center">
               {values.map((value, index) => (
                 <ValueCard key={index} {...value} />
               ))}
