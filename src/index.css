@@ -11,33 +11,33 @@
 }
 
 @font-face {
-  font-family: 'clash';
-  src: url('./assets/fonts/ClashDisplay-Regular.woff') format('woff');
+  font-family: "clash";
+  src: url("./assets/fonts/ClashDisplay-Regular.woff") format("woff");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'clash';
-  src: url('./assets/fonts/ClashDisplay-Medium.woff') format('woff');
+  font-family: "clash";
+  src: url("./assets/fonts/ClashDisplay-Medium.woff") format("woff");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'clash';
-  src: url('./assets/fonts/ClashDisplay-Semibold.woff') format('woff');
+  font-family: "clash";
+  src: url("./assets/fonts/ClashDisplay-Semibold.woff") format("woff");
   font-weight: 600;
 }
 
 @font-face {
-  font-family: 'clash';
-  src: url('./assets/fonts/ClashDisplay-Bold.woff') format('woff');
+  font-family: "clash";
+  src: url("./assets/fonts/ClashDisplay-Bold.woff") format("woff");
   font-weight: 700;
 }
 
 /* Base qatlamda global font qo'shish */
 @layer base {
-  body{
-    font-family: 'clash';
+  body {
+    font-family: "clash", sans-serif;
     font-weight: 400;
   }
 }

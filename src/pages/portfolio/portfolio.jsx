@@ -100,6 +100,74 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+
+        <div className="rounded-tl-[40px] rounded-bl-[40px] parent_div">
+          <div className="container max-w-7xl flex justify-between">
+            <div>
+              <img
+                src={img1}
+                className="max-w-[580px] max-h-[420px]"
+                alt="img"
+              />
+            </div>
+
+            <div className="max-w-[580px] w-full h-[436px] pt-10 relative">
+              <div className="flex justify-between items-center">
+                <p className="text-[#393939] text-4xl font-semibold">Topuy</p>
+                <button className="w-[80.14px] h-[25px] rounded-[50px] border border-[#393939] text-[#393939] text-xs font-medium leading-tight">
+                  {t("veb")}
+                </button>
+              </div>
+              <p className="max-w-[580px] mt-[34px] text-[#393939] text-2xl font-normal font-['Clash Display'] leading-9">
+                Topuy — bu O‘zbekistonda ko‘chmas mulk sotib olish, sotish va
+                ijaraga berish bo‘yicha xizmat ko‘rsatadigan onlayn platforma.
+                Sayt ko‘chmas mulk bozoridagi jarayonlarni soddalashtirish va
+                foydalanuvchilarga qulay sharoit yaratish uchun mo‘ljallangan.
+              </p>
+              <button className="absolute bottom-10 right-0 max-w-[270.47px] w-full h-10 rounded-[20px] border border-[#2644d8] text-[#2644d8] text-base font-normal leading-normal">
+                {t("portfolio2")}{" "}
+                <PiArrowUpRightBold
+                  className="absolute top-3 right-5"
+                  color="#2644d9"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-tr-[40px] rounded-br-[40px] parent_div1">
+          <div className="ml-auto container max-w-7xl flex gap-20 justify-between">
+            <div className="max-w-[580px] w-full h-[436px] pt-10 relative">
+              <div className="flex justify-between items-center">
+                <p className="text-white text-4xl font-semibold">Topuy</p>
+                <button className="w-[80.14px] h-[25px] rounded-[50px] border border-white text-white text-xs font-medium leading-tight">
+                  {t("veb")}
+                </button>
+              </div>
+              <p className="max-w-[580px] mt-[34px] text-white text-2xl font-normal font-['Clash Display'] leading-9">
+                Topuy — bu O‘zbekistonda ko‘chmas mulk sotib olish, sotish va
+                ijaraga berish bo‘yicha xizmat ko‘rsatadigan onlayn platforma.
+                Sayt ko‘chmas mulk bozoridagi jarayonlarni soddalashtirish va
+                foydalanuvchilarga qulay sharoit yaratish uchun mo‘ljallangan.
+              </p>
+              <button className="absolute bottom-10 left-0 max-w-[270.47px] w-full h-10 rounded-[20px] border border-white text-white text-base font-normal leading-normal">
+                {t("portfolio2")}{" "}
+                <PiArrowUpRightBold
+                  className="absolute top-3 right-5"
+                  color="#fff"
+                />
+              </button>
+            </div>
+
+            <div>
+              <img
+                src={img2}
+                className="max-w-[580px] max-h-[420px]"
+                alt="img"
+              />
+            </div>
+          </div>
+        </div>
       </div>
       <PortfolioMobile />
     </div>

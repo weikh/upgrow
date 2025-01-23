@@ -1,19 +1,12 @@
 .parent_div {
   width: 92%;
   transform: translateX(8%);
-  background-image: url("../../assets/icons/portfolio1.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: linear-gradient(to bottom right, #e5f0ff, #f6f9ff, #ffffff);
 }
 
 .parent_div1 {
   width: 92%;
-  /* transform: translateX(-8%); */
-  background-image: url("../../assets/icons/portfolio2.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: linear-gradient(to right, #0a1c4d, #1c2e85, #121c61);
 }
 
 @media (min-width: 1700px) {
@@ -37,15 +30,9 @@
 }
 
 .parent_img1 {
-  background-image: url("../../assets/icons/portfolio1.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: linear-gradient(to bottom right, #e5f0ff, #f6f9ff, #ffffff);
 }
 
 .parent_img2 {
-  background-image: url("../../assets/icons/portfolio2.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: linear-gradient(to right, #0a1c4d, #1c2e85, #121c61);
 }
