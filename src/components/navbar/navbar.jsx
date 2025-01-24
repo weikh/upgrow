@@ -132,7 +132,7 @@ const Navbar = () => {
         </div>
 
         {open && (
-          <ul className="w-full relative flex flex-col items-center gap-10 mt-10 font-medium text-[18px] leading-5 text-[#393939]">
+          <ul className="w-full relative flex flex-col items-center gap-10 mt-10 font-medium text-lg text-[#393939]">
             <li className="absolute top-0 right-0 w-[180px] flex justify-end">
               <div className="language-selector">
                 <button className="language-button">

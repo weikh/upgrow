@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./contact.css";
-import { BsTelephoneFill } from "react-icons/bs";
 import axios from "axios";
 import { toast } from "react-toastify";
 import { useTranslation } from "react-i18next";
+import { telephoneWhite } from "../../assets/icons/icons";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -54,9 +54,12 @@ const Contact = () => {
   }, []);
 
   return (
-    <section className="overflow-hidden contact contact-bg mt-[100px] max-sm:px-4" id="contact">
+    <section
+      className="overflow-hidden contact contact-bg mt-[100px] max-sm:px-4"
+      id="contact"
+    >
       <div className="mx-auto py-24  max-w-7xl flex justify-between max-sm:flex-col max-sm:py-10">
-        <div className="flex flex-col justify-between max-w-[600px] w-full text-[#fff]">
+        <div className="flex flex-col justify-between max-w-[600px] w-full text-white">
           <h2
             data-aos="fade-right"
             className="text-[42px] font-bold leading-[63px] max-sm:text-lg max-sm:leading-[27px] max-sm:text-center"
@@ -64,16 +67,16 @@ const Contact = () => {
             {t("contact1")}
           </h2>
           <div className="my-3 max-sm:hidden">
-            <p data-aos="fade-right" className="font-medium text-[18px]">
+            <p data-aos="fade-right" className="font-medium text-lg">
               {t("contact2")}
             </p>
             <a
               data-aos="fade-right"
               href="tel:+998 77 708 41 41"
-              className="flex gap-3 my-3 text-[#fff] transform hover:scale-95 transition-transform duration-300"
+              className="flex items-center gap-3 my-3 transform hover:scale-95 transition-transform duration-300"
             >
-              <BsTelephoneFill size={36} />
-              <p className="text-[32px] font-normal leading-[38.4px]">
+              <img src={telephoneWhite} className="w-9 h-9" alt="telephone" />
+              <p className="text-[32px] font-semibold">
                 <span>+998 77 708 41 41</span>
               </p>
             </a>
@@ -87,10 +90,10 @@ const Contact = () => {
           <form
             onSubmit={sendMessage}
             id="form"
-            className="w-[520px] rounded-3xl p-7 bg-[#f9f9f9] max-sm:w-full"
+            className="w-[520px] rounded-[10px] p-10 bg-[#f9f9f9] max-sm:w-full max-sm:p-5"
           >
-            <div className="flex flex-col mb-3">
-              <label className="ml-[20px] font-normal text-[16px] leading-[19px] text-[#5B5B5B] my-1">
+            <div className="flex flex-col mb-5">
+              <label className="ml-5 font-normal text-base text-[#5B5B5B] my-1">
                 {t("contact3")}
               </label>
               <input
@@ -98,11 +101,11 @@ const Contact = () => {
                 id="name"
                 required
                 placeholder="name"
-                className="border-t border-t-[#e8e8e8] pl-[20px] text-[#1d1c1c] text-[18px] h-[46px] font-medium rounded-lg outline-none"
+                className="border-t border-[#e8e8e8] pl-5 text-[#393939] text-lg h-[46px] font-medium rounded-lg outline-none"
               />
             </div>
-            <div className="flex flex-col mb-3">
-              <label className="ml-[20px] font-normal text-[16px] leading-[19px] text-[#5B5B5B] my-1">
+            <div className="flex flex-col mb-5">
+              <label className="ml-5 font-normal text-base text-[#5B5B5B] my-1">
                 {t("contact4")}
               </label>
               <input
@@ -113,11 +116,11 @@ const Contact = () => {
                   e.target.value = e.target.value.replace(/[^0-9+]/g, "");
                 }}
                 placeholder="+998 90 777 77 77"
-                className="border-t border-t-[#e8e8e8] pl-[20px] text-[#1d1c1c] h-[46px] text-[18px] font-medium rounded-lg outline-none"
+                className="border-t border-[#e8e8e8] pl-5 text-[#393939] text-lg h-[46px] font-medium rounded-lg outline-none"
               />
             </div>
-            <div className="flex flex-col ">
-              <label className="ml-[20px] font-normal text-[16px] leading-[19px] text-[#5B5B5B] my-1">
+            <div className="flex flex-col">
+              <label className="ml-5 font-normal text-base text-[#5B5B5B] my-1">
                 {t("contact5")}
               </label>
               <input
@@ -125,13 +128,13 @@ const Contact = () => {
                 id="email"
                 required
                 placeholder="example@gmail.com"
-                className="border-t border-t-[#e8e8e8] pl-[20px] text-[#1d1c1c] h-[46px] text-[18px] font-medium rounded-lg outline-none"
+                className="border-t border-[#e8e8e8] pl-5 text-[#393939] text-lg h-[46px] font-medium rounded-lg outline-none"
               />
             </div>
             <button
               loading={loading}
               type="submit"
-              className="contact-btn-bg w-full mt-6 h-[46px] text-[#fff] text-[22px] leading-[26px] font-medium rounded-lg max-sm:text-base max-sm:font-normal"
+              className="contact-btn-bg w-full mt-10 h-[46px] text-white text-[22px] font-medium rounded-lg max-sm:text-base max-sm:font-normal"
             >
               {loading ? t("contact6") : t("contact7")}
             </button>
@@ -146,7 +149,7 @@ const Contact = () => {
             href="tel:+998 77 708 41 41"
             className="flex items-center gap-3 my-3 text-[#fff] transform hover:scale-95 transition-transform duration-300"
           >
-            <BsTelephoneFill size={36} className="max-sm:w-6 max-sm:h-6" />
+            <img src={telephoneWhite} className="w-6 h-6" alt="tel" />
             <p className="text-[32px] font-normal leading-[38.4px] max-sm:text-xl">
               <span>+998 77 708 41 41</span>
             </p>

@@ -32,7 +32,7 @@ const Portfolio = () => {
           </button>
         </div>
       </div>
-      <div className="mt-10 flex flex-col gap-5 max-sm:hidden">
+      <div className="mt-10 flex flex-col gap-10 max-sm:hidden">
         <div className="rounded-tl-[40px] rounded-bl-[40px] parent_div">
           <div className="container max-w-7xl flex justify-between">
             <div>

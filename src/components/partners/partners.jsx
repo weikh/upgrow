@@ -57,7 +57,7 @@ const Partners = () => {
     <div className="max-w-[1240px] mx-auto mt-[80px]">
       <p
         data-aos="fade-right"
-        className="flex items-center gap-5 font-medium text-[22px] leading-[26px] text-[#2644d9] max-sm:px-4 max-sm:gap-[10px] max-sm:text-[15px]"
+        className="flex items-center gap-5 font-medium text-[22px] text-[#2644d9] max-sm:px-4 max-sm:gap-[10px] max-sm:text-[15px]"
       >
         <span className="h-5 border-[2px] border-[#2644d9] rounded-3xl max-sm:border-[1px]"></span>
         {t("partners")}

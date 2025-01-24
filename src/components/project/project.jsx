@@ -19,7 +19,7 @@ const Project = () => {
     <div className="overflow-hidden mt-20 flex flex-col items-center justify-center bg-custom-gradient max-sm:mt-10 max-sm:px-4">
       <h3
         data-aos="fade-left"
-        className="max-w-[842px] mt-10 font-bold text-[42px] leading-[63px] text-[#fff] text-center max-sm:text-lg"
+        className="max-w-[842px] mt-10 font-semibold text-[42px] leading-[63px] text-[#fff] text-center max-sm:text-lg"
       >
         {t("project")}
       </h3>

@@ -26,6 +26,7 @@ import clients3 from './clients3.png'
 import animatelogo from './animatelogo.svg'
 import sms from './sms.svg'
 import telephone from './telephone.svg'
+import telephoneWhite from './telephone-white.svg'
 import location from './location.svg'
 import language from './language.svg'
 import aboutgroup from './aboutgroup.svg'
@@ -67,6 +68,7 @@ export {
   animatelogo,
   sms,
   telephone,
+  telephoneWhite,
   location,
   language,
   aboutgroup,
