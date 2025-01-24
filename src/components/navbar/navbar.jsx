@@ -43,7 +43,7 @@ const Navbar = () => {
     <div className="bg-[#f7f9fd] border border-transparent">
       <div
         className={`fixed top-0 left-0 right-0 mt-[20px] mx-auto max-w-7xl ${
-          open ? "h-[400px]" : "h-[72px]"
+          open ? "h-[460px]" : "h-[72px]"
         }  flex items-center px-[40px] rounded-[20px] bg-white bg-opacity-60 backdrop-blur-[60px] z-[999] max-lg:mx-4 max-lg:items-start max-lg:px-5 max-lg:py-5 max-lg:rounded-xl max-lg:flex-col`}
       >
         <div className="w-full flex items-center justify-between">
@@ -132,7 +132,7 @@ const Navbar = () => {
         </div>
 
         {open && (
-          <ul className="w-full relative flex flex-col items-center gap-10 mt-10 font-medium text-lg text-[#393939]">
+          <ul className="w-full relative flex flex-col items-center gap-10 mt-10 pt-14 font-medium text-lg text-[#393939]">
             <li className="absolute top-0 right-0 w-[180px] flex justify-end">
               <div className="language-selector">
                 <button className="language-button">
@@ -164,28 +164,36 @@ const Navbar = () => {
             <Link
               onClick={handleOpen}
               to="/about"
-              className="mt-20 cursor-pointer hover:text-[#2d44d9]"
+              className={`cursor-pointer hover:text-[#2d44d9] ${
+                active === "about" ? "text-[#2d44d9]" : ""
+              }`}
             >
               {t("about")}
             </Link>
             <Link
               onClick={handleOpen}
               to="/services"
-              className="cursor-pointer hover:text-[#2d44d9]"
+              className={`cursor-pointer hover:text-[#2d44d9] ${
+                active === "services" ? "text-[#2d44d9]" : ""
+              }`}
             >
               {t("services")}
             </Link>
             <Link
               onClick={handleOpen}
               to="/portfolio"
-              className="cursor-pointer hover:text-[#2d44d9]"
+              className={`cursor-pointer hover:text-[#2d44d9] ${
+                active === "portfolio" ? "text-[#2d44d9]" : ""
+              }`}
             >
               {t("portfolio")}
             </Link>
             <Link
               onClick={handleOpen}
               to="/contact"
-              className="cursor-pointer hover:text-[#2d44d9]"
+              className={`cursor-pointer hover:text-[#2d44d9] ${
+                active === "contact" ? "text-[#2d44d9]" : ""
+              }`}
             >
               {t("contacts")}
             </Link>

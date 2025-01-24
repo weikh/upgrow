@@ -14,7 +14,7 @@ import Contact from "../../components/contact/Contact";
 import "./main.css";
 
 const ValueCard = ({ icon, title, description }) => (
-  <div className="w-[380px] h-[250px] bg-white rounded-[20px] pt-[30px] shadow-custom max-sm:px-5">
+  <div className="w-[380px] h-[250px] bg-white rounded-[20px] pt-[30px] shadow-custom max-sm:px-5 max-sm:max-w-full">
     <img src={icon} className="mx-auto" width={30} height={30} alt={title} />
     <p className="text-center mt-2 text-[#1e2f84] text-2xl font-semibold max-sm:text-xl">
       {title}
