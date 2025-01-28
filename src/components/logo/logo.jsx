@@ -36,7 +36,7 @@ const Logo = () => {
   };
 
   return (
-    <div className="w-full h-[40px] mt-[80px] custom-gradient mx-auto">
+    <div className="w-full h-[40px] custom-gradient mx-auto">
       <Slider {...settings}>
         <div className="flex items-center justify-center h-full">
           <img

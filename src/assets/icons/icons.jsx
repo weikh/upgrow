@@ -79,5 +79,5 @@ export {
   box5,
   box6,
   img1,
-  img2,
+  img2
 };
