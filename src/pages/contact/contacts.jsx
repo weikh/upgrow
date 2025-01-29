@@ -7,29 +7,66 @@ import axios from "axios";
 const Contacts = () => {
   const { t } = useTranslation();
   const [loading, setLoading] = useState(false);
+  const [phone, setPhone] = useState("+998");
+  const [error, setError] = useState(false);
+
+  const handlePhoneInput = (e) => {
+    let value = e.target.value.replace(/\D/g, "");
+
+    if (!value.startsWith("998")) {
+      value = "998";
+    }
+
+    if (value.length > 12) {
+      value = value.slice(0, 12);
+    }
+
+    let formattedPhone = `+${value.slice(0, 3)}`;
+    if (value.length > 3) formattedPhone += ` ${value.slice(3, 5)}`;
+    if (value.length > 5) formattedPhone += ` ${value.slice(5, 8)}`;
+    if (value.length > 8) formattedPhone += ` ${value.slice(8, 10)}`;
+    if (value.length > 10) formattedPhone += ` ${value.slice(10, 12)}`;
+
+    setPhone(formattedPhone);
+    setError("");
+  };
+
+  const handleBlur = () => {
+    const uzbekPhoneRegex =
+      /^\+998 (90|91|93|94|95|98|99|33|50|55|77|88|20) \d{3} \d{2} \d{2}$/;
+
+    if (phone === "+998") {
+      setError("");
+      return;
+    }
+
+    if (!uzbekPhoneRegex.test(phone)) {
+      setError("Telefon raqami noto'g'ri kiritildi!");
+    } else {
+      setError("");
+    }
+  };
+
   const sendMessage = (e) => {
-    setLoading(true);
     e.preventDefault();
+    if (error) return;
+
+    setLoading(true);
     const token = "6813259261:AAEJKDtww2rVu73wT9ns9wy_6epU1C-u0DU";
-    // const token = "7502554917:AAHm-8pBtm6ejWkZpnyKKzPxGiGdVqVESTs";
     const chatId = -1002158530694;
-    // const chatId = 6813259261;
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
     const name = document.getElementById("name").value;
-    const telephone = document.getElementById("telephone").value;
     const email = document.getElementById("email").value;
-    const messageContent = `💻Web saytdan mijoz\n Ismi: ${name} \n Telefon raqami: ${telephone} \n Email: ${email}`;
 
-    axios({
-      url: url,
-      method: "POST",
-      data: {
-        chat_id: chatId,
-        text: messageContent,
-      },
-    })
+    const phoneForTelegram = phone.replace(/\s/g, "");
+
+    const messageContent = `💻Web saytdan mijoz\n Ismi: ${name} \n Telefon raqami: ${phoneForTelegram} \n Email: ${email}`;
+
+    axios
+      .post(url, { chat_id: chatId, text: messageContent })
       .then(() => {
         document.getElementById("form").reset();
+        setPhone("+998");
         toast.success(t("success"));
       })
       .catch(() => {
@@ -120,12 +157,13 @@ const Contacts = () => {
                 type="tel"
                 id="telephone"
                 required
-                onInput={(e) => {
-                  e.target.value = e.target.value.replace(/[^0-9+]/g, "");
-                }}
+                value={phone}
+                onChange={handlePhoneInput}
+                onBlur={handleBlur}
                 placeholder="+998 90 777 77 77"
-                className="border border-[#a7a7a7] pl-[20px] text-[#393939] h-[50px] text-[22px] leading-[27px] font-medium rounded-[10px] outline-none"
+                className="border-t border-[#e8e8e8] pl-5 text-[#393939] text-lg h-[46px] font-medium rounded-lg outline-none"
               />
+              {error && <p className="text-red-500 text-sm mt-1">{error}</p>}
             </div>
             <div className="flex flex-col">
               <label className="ml-5 text-[18px] leading-[22px] text-[#5B5B5B] mb-2.5">
