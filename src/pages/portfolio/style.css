@@ -1,12 +1,23 @@
 .parent_div {
-  width: 92%;
-  transform: translateX(8%);
+  width: 91%;
+  transform: translateX(9%);
   background: linear-gradient(to bottom right, #e5f0ff, #f6f9ff, #ffffff);
 }
 
 .parent_div1 {
   width: 92%;
   background: linear-gradient(to right, #0a1c4d, #1c2e85, #121c61);
+}
+
+@media (max-width: 1441px) {
+  .parent_div {
+    width: 98%;
+    transform: translateX(2%);
+  }
+
+  .parent_div1 {
+    width: 98%;
+  }
 }
 
 @media (min-width: 1700px) {

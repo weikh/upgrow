@@ -35,7 +35,7 @@ const Portfolio = () => {
 
       <div className="mt-10 flex flex-col gap-10 max-sm:hidden">
         <div className="rounded-tl-[40px] rounded-bl-[40px] shadow-custom parent_div">
-          <div className="container max-w-7xl flex justify-between items-center">
+          <div className="max-w-[1230px] pl-[30px] flex justify-between items-center">
             <div>
               <img
                 src={img1}
@@ -71,7 +71,7 @@ const Portfolio = () => {
         </div>
 
         <div className="rounded-tr-[40px] rounded-br-[40px] shadow-custom parent_div1">
-          <div className="ml-auto container max-w-7xl flex gap-20 justify-between items-center">
+          <div className="ml-auto max-w-[1230px] pr-[30px] flex justify-between items-center">
             <div className="max-w-[580px] w-full h-[436px] pt-10 relative">
               <div className="flex justify-between items-center">
                 <p className="text-white text-4xl font-semibold">Podari</p>
@@ -102,7 +102,7 @@ const Portfolio = () => {
         </div>
 
         <div className="rounded-tl-[40px] rounded-bl-[40px] shadow-custom parent_div">
-          <div className="container max-w-7xl flex justify-between items-center">
+          <div className="max-w-[1230px] flex pl-[30px] justify-between items-center">
             <div>
               <img
                 src={img3}
@@ -133,7 +133,7 @@ const Portfolio = () => {
         </div>
 
         <div className="rounded-tr-[40px] rounded-br-[40px] shadow-custom parent_div1">
-          <div className="ml-auto container max-w-7xl flex gap-20 justify-between items-center">
+          <div className="ml-auto max-w-[1230px] flex pr-[30px] justify-between items-center">
             <div className="max-w-[580px] w-full h-[436px] pt-10 relative">
               <div className="flex justify-between items-center">
                 <p className="text-white text-4xl font-semibold">Salonchi</p>
@@ -164,7 +164,7 @@ const Portfolio = () => {
         </div>
 
         <div className="rounded-tl-[40px] rounded-bl-[40px] shadow-custom parent_div">
-          <div className="container max-w-7xl flex justify-between items-center">
+          <div className="max-w-[1230px] pl-[30px] flex justify-between items-center">
             <div>
               <img
                 src={img5}
