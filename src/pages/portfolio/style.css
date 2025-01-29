@@ -11,12 +11,12 @@
 
 @media (max-width: 1441px) {
   .parent_div {
-    width: 98%;
-    transform: translateX(2%);
+    width: 94%;
+    transform: translateX(6%);
   }
 
   .parent_div1 {
-    width: 98%;
+    width: 94%;
   }
 }
 
