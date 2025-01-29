@@ -36,16 +36,16 @@ import box3 from "./box3.svg";
 import box4 from "./box4.svg";
 import box5 from "./box5.svg";
 import box6 from "./box6.svg";
-import img1 from "./img1.webp";
-import img2 from "./img2.webp";
-import img3 from "./img3.webp";
-import img4 from "./img4.webp";
-import img5 from "./img5.webp";
-import img1mobile from "./img1_mobile.webp";
-import img2mobile from "./img2_mobile.webp";
-import img3mobile from "./img3_mobile.webp";
-import img4mobile from "./img4_mobile.webp";
-import img5mobile from "./img5_mobile.webp";
+import img1 from "./img1.png";
+import img2 from "./img2.png";
+import img3 from "./img3.png";
+import img4 from "./img4.png";
+import img5 from "./img5.png";
+import img1mobile from "./img1_mobile.png";
+import img2mobile from "./img2_mobile.png";
+import img3mobile from "./img3_mobile.png";
+import img4mobile from "./img4_mobile.png";
+import img5mobile from "./img5_mobile.png";
 
 export {
   logo,
