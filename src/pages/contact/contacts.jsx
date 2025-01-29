@@ -108,7 +108,7 @@ const Contacts = () => {
                 type="text"
                 id="name"
                 required
-                placeholder="name"
+                placeholder={t("contact3")}
                 className="border border-[#a7a7a7] pl-[20px] text-[#393939] h-[50px] text-[22px] leading-[27px] font-medium rounded-[10px] outline-none"
               />
             </div>
