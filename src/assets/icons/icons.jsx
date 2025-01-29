@@ -8,36 +8,44 @@ import services3 from "./services3.svg";
 import services4 from "./services4.svg";
 import services5 from "./services5.svg";
 import services6 from "./services6.svg";
-import partners1 from './partners1.svg'
-import partners2 from './partners2.svg'
-import partners3 from './partners3.svg'
-import partners4 from './partners4.svg'
-import partners5 from './partners5.svg'
-import partners6 from './partners6.svg'
-import section1 from './section1.svg'
-import section2 from './section2.svg'
-import section3 from './section3.svg'
-import section4 from './section4.svg'
-import section5 from './section5.svg'
-import section6 from './section6.svg'
-import clients1 from './clients1.png'
-import clients2 from './clients2.png'
-import clients3 from './clients3.png'
-import animatelogo from './animatelogo.svg'
-import sms from './sms.svg'
-import telephone from './telephone.svg'
-import telephoneWhite from './telephone-white.svg'
-import location from './location.svg'
-import language from './language.svg'
-import aboutgroup from './aboutgroup.svg'
-import box1 from './box1.svg'
-import box2 from './box2.svg'
-import box3 from './box3.svg'
-import box4 from './box4.svg'
-import box5 from './box5.svg'
-import box6 from './box6.svg'
-import img1 from './img1.png'
-import img2 from './img2.png'
+import partners1 from "./partners1.svg";
+import partners2 from "./partners2.svg";
+import partners3 from "./partners3.svg";
+import partners4 from "./partners4.svg";
+import partners5 from "./partners5.svg";
+import partners6 from "./partners6.svg";
+import section1 from "./section1.svg";
+import section2 from "./section2.svg";
+import section3 from "./section3.svg";
+import section4 from "./section4.svg";
+import section5 from "./section5.svg";
+import section6 from "./section6.svg";
+import clients1 from "./clients1.png";
+import clients2 from "./clients2.png";
+import clients3 from "./clients3.png";
+import animatelogo from "./animatelogo.svg";
+import sms from "./sms.svg";
+import telephone from "./telephone.svg";
+import telephoneWhite from "./telephone-white.svg";
+import location from "./location.svg";
+import language from "./language.svg";
+import aboutgroup from "./aboutgroup.svg";
+import box1 from "./box1.svg";
+import box2 from "./box2.svg";
+import box3 from "./box3.svg";
+import box4 from "./box4.svg";
+import box5 from "./box5.svg";
+import box6 from "./box6.svg";
+import img1 from "./img1.webp";
+import img2 from "./img2.webp";
+import img3 from "./img3.webp";
+import img4 from "./img4.webp";
+import img5 from "./img5.webp";
+import img1mobile from "./img1_mobile.webp";
+import img2mobile from "./img2_mobile.webp";
+import img3mobile from "./img3_mobile.webp";
+import img4mobile from "./img4_mobile.webp";
+import img5mobile from "./img5_mobile.webp";
 
 export {
   logo,
@@ -79,5 +87,13 @@ export {
   box5,
   box6,
   img1,
-  img2
+  img2,
+  img3,
+  img4,
+  img5,
+  img1mobile,
+  img2mobile,
+  img3mobile,
+  img4mobile,
+  img5mobile,
 };

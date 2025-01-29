@@ -2,15 +2,15 @@ import React from "react";
 import "./index.css";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+// import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <div id="hero" className="hero-bg pt-[92px] rounded-[20px] max-sm:hidden">
+    <div id="hero" className="hero-bg pt-[65px] rounded-[20px] max-sm:hidden">
       <div className="max-w-7xl mx-auto flex justify-between rounded-[20px]">
-        <div className="max-w-[658px] mt-[140px] w-full ml-[50px] pb-20 flex flex-col">
+        <div className="max-w-[658px] mt-[70px] w-full ml-[50px] pb-[70px] flex flex-col">
           <h1 className="font-bold text-7xl leading-[108px] text-[#111111]">
             {t("hero-text1")}
           </h1>
@@ -60,12 +60,12 @@ const Hero = () => {
         </div>
 
         <div className="mt-[140px]">
-          <DotLottieReact
+          {/* <DotLottieReact
             src="https://lottie.host/830b0dd4-3c07-4de7-a9a6-2c3ada652e14/FymIhJJsVu.lottie"
             loop={true}
             autoplay={true}
             className="w-[500px] h-[500px]"
-          />
+          /> */}
         </div>
       </div>
     </div>
