@@ -161,7 +161,7 @@ const Contacts = () => {
                 onChange={handlePhoneInput}
                 onBlur={handleBlur}
                 placeholder="+998 90 777 77 77"
-                className="border-t border-[#e8e8e8] pl-5 text-[#393939] text-lg h-[46px] font-medium rounded-lg outline-none"
+                className="border border-[#a7a7a7] pl-5 text-[#393939] text-lg h-[46px] font-medium rounded-lg outline-none"
               />
               {error && <p className="text-red-500 text-sm mt-1">{error}</p>}
             </div>
