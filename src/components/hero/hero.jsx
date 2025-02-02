@@ -8,46 +8,46 @@ const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <div id="hero" className="hero-bg pt-[65px] rounded-[20px] max-sm:hidden">
+    <div id="hero" className="hero-bg pt-[65px] rounded-[20px]">
       <div className="max-w-7xl mx-auto flex justify-between rounded-[20px]">
-        <div className="max-w-[658px] mt-[70px] w-full ml-[50px] pb-[70px] flex flex-col">
-          <h1 className="font-bold text-7xl leading-[108px] text-[#111111]">
+        <div className="max-w-[658px] mt-[70px] w-full ml-[50px] pb-[70px] flex flex-col max-sm:mx-auto max-sm:px-5">
+          <h1 className="font-bold text-7xl leading-[108px] text-[#111111] max-sm:text-[40px] max-sm:leading-[60px]">
             {t("hero-text1")}
           </h1>
-          <h2 className="font-semibold text-5xl leading-[72px] text-[#2644d8]">
+          <h2 className="font-semibold text-5xl leading-[72px] text-[#2644d8] max-sm:text-2xl max-sm:leading-9">
             {t("hero-text2")}
           </h2>
-          <p className="max-w-[543px] font-medium text-2xl leading-9 text-[#393939]">
+          <p className="max-w-[543px] font-medium text-2xl leading-9 text-[#393939] max-sm:text-[15px] max-sm:leading-snug">
             {t("hero-text3")}
           </p>
-          <div className="max-w-[500px] flex flex-wrap mt-[108px] gap-2.5 text-[#393939] text-xl font-medium">
+          <div className="max-w-[500px] flex flex-wrap mt-[108px] gap-2.5 text-[#393939] text-xl font-medium max-sm:text-sm max-sm:gap-[10px]">
             <Link
               to="/services"
-              className="h-[41px] px-[25px] py-2 bg-white/60 rounded-[30px] border border-[#393939] backdrop-blur-[60px] justify-center items-center gap-2.5 inline-flex"
+              className="h-[41px] px-[25px] py-2 bg-white/60 rounded-[30px] border border-[#393939] backdrop-blur-[60px] justify-center items-center gap-2.5 inline-flex max-sm:py-[5px] max-sm:px-[15px]"
             >
               {t("mobile")}
             </Link>
             <Link
               to="/services"
-              className="h-[41px] px-[25px] py-2 bg-white/60 rounded-[30px] border border-[#393939] backdrop-blur-[60px] justify-center items-center gap-2.5 inline-flex"
+              className="h-[41px] px-[25px] py-2 bg-white/60 rounded-[30px] border border-[#393939] backdrop-blur-[60px] justify-center items-center gap-2.5 inline-flex max-sm:py-[5px] max-sm:px-[15px]"
             >
               {t("veb")}
             </Link>
             <Link
               to="/services"
-              className="h-[41px] px-[25px] py-2 bg-white/60 rounded-[30px] border border-[#393939] backdrop-blur-[60px] justify-center items-center gap-2.5 inline-flex"
+              className="h-[41px] px-[25px] py-2 bg-white/60 rounded-[30px] border border-[#393939] backdrop-blur-[60px] justify-center items-center gap-2.5 inline-flex max-sm:py-[5px] max-sm:px-[15px]"
             >
               {t("erp")}
             </Link>
             <Link
               to="/services"
-              className="h-[41px] px-[25px] py-2 bg-white/60 rounded-[30px] border border-[#393939] backdrop-blur-[60px] justify-center items-center gap-2.5 inline-flex"
+              className="h-[41px] px-[25px] py-2 bg-white/60 rounded-[30px] border border-[#393939] backdrop-blur-[60px] justify-center items-center gap-2.5 inline-flex max-sm:py-[5px] max-sm:px-[15px]"
             >
               {t("commerce")}
             </Link>
             <Link
               to="/services"
-              className="h-[41px] px-[25px] py-2 bg-white/60 rounded-[30px] border border-[#393939] backdrop-blur-[60px] justify-center items-center gap-2.5 inline-flex"
+              className="h-[41px] px-[25px] py-2 bg-white/60 rounded-[30px] border border-[#393939] backdrop-blur-[60px] justify-center items-center gap-2.5 inline-flex max-sm:py-[5px] max-sm:px-[15px]"
             >
               {t("startup")}
             </Link>
