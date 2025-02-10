@@ -1,5 +1,6 @@
 .about_bg {
-  background-image: url("../../assets/icons/aboutbg.png");
+  /* background-image: url("../../assets/icons/aboutbg.png"); */
+  background-image: url('../../assets/icons/aboutbg.svg');
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
@@ -7,6 +8,7 @@
 
 @media (max-width: 640px) {
   .about_bg {
-    background-image: url('../../assets/icons/aboutbg1.png');
+    background-image: url('../../assets/icons/aboutbg1.svg');
+    /* background-image: url('../../assets/icons/aboutbg1.png'); */
   }
 }

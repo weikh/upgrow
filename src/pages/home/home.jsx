@@ -13,8 +13,10 @@ import ServicesMobile from "../../components/services/serveces.mobile";
 const Home = () => {
   return (
     <div>
-      <Hero />
-      <Logo />
+      <div className="h-[100vh] border border-black">
+        <Hero />
+        <Logo />
+      </div>
       <Company />
       <Services />
       <ServicesMobile />
@@ -22,8 +24,8 @@ const Home = () => {
       <Project />
       <Section />
       <SectionMobile />
-      <Clients/>
-      <Contact/>
+      <Clients />
+      <Contact />
     </div>
   );
 };

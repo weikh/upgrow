@@ -44,7 +44,7 @@ const Navbar = () => {
       <div
         className={`fixed top-0 left-0 right-0 mt-[20px] mx-auto max-w-7xl ${
           open ? "h-[460px]" : "h-[72px]"
-        }  flex items-center px-[40px] rounded-[20px] bg-white bg-opacity-60 backdrop-blur-[60px] z-[999] max-lg:mx-4 max-lg:items-start max-lg:px-5 max-lg:py-5 max-lg:rounded-xl max-lg:flex-col`}
+        }  flex items-center px-[40px] rounded-[20px] to-enterprise-gray/10 from-enterprise-gray/5 bg-gradient-to-br border border-white/60 backdrop-blur-lg z-[999] max-lg:mx-4 max-lg:items-start max-lg:px-5 max-lg:py-5 max-lg:rounded-xl max-lg:flex-col`}
       >
         <div className="w-full flex items-center justify-between">
           <ul>
