@@ -13,7 +13,7 @@ import ServicesMobile from "../../components/services/serveces.mobile";
 const Home = () => {
   return (
     <div>
-      <div className="h-[100vh]">
+      <div>
         <Hero />
         <Logo />
       </div>

@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Mousewheel } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+
 import {
   services1,
   services2,
@@ -10,26 +12,12 @@ import {
   services4,
   services5,
   services6,
-} from "../../assets/icons/icons"; // Barcha ikonlarni bitta massivda saqlash
+} from "../../assets/icons/icons";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Services = () => {
   const { t } = useTranslation();
-
-  const settings = {
-    centerMode: true,
-    centerPadding: "10px",
-    slidesToShow: 3,
-    speed: 5000,
-    autoplay: true,
-    autoplaySpeed: 0,
-    cssEase: "linear",
-    responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 2 } },
-      { breakpoint: 640, settings: { slidesToShow: 1 } },
-    ],
-  };
 
   useEffect(() => {
     AOS.init({ duration: 500, easing: "ease", once: false, offset: 10 });
@@ -113,33 +101,42 @@ const Services = () => {
         <span className="h-5 border-[2px] border-[#2644d9] rounded-3xl"></span>
         {t("services1")}
       </p>
-      <div className="mt-[0px]">
-        <Slider {...settings}>
+      <div>
+        <Swiper
+          direction={"horizontal"}
+          slidesPerView={3}
+          spaceBetween={0}
+          speed={1000}
+          mousewheel={{
+            releaseOnEdges: true,
+            sensitivity: 1,
+          }}
+          modules={[Mousewheel]}
+        >
           {servicesData.map((service, index) => (
-            <div
-              key={index}
-              className="max-w-[380px] w-full h-[470px] rounded-[20px] my-[40px] p-[30px] bg-gradient-to-b from-[#d4dbff] to-white hover:bg-none shadow-custom"
-            >
-              <div className="flex gap-4 pb-[30px] items-center font-semibold text-2xl text-[#111111] border-b border-b-[#818796]">
-                <img
-                  width={24}
-                  height={24}
-                  src={service.icon}
-                  alt={service.title}
-                />
-                {service.title}
+            <SwiperSlide key={index}>
+              <div className="max-w-[380px] w-full h-[470px] rounded-[20px] my-[40px] p-[30px] bg-gradient-to-b from-[#d4dbff] to-white hover:bg-none shadow-custom">
+                <div className="flex gap-4 pb-[30px] items-center font-semibold text-2xl text-[#111111] border-b border-b-[#818796]">
+                  <img
+                    width={24}
+                    height={24}
+                    src={service.icon}
+                    alt={service.title}
+                  />
+                  {service.title}
+                </div>
+                <p className="max-w-[285px] mt-[30px] font-medium text-base leading-relaxed text-[#393939]">
+                  {service.description}
+                </p>
+                <ul className="list-disc ml-[15px] mt-[30px] max-w-[310px] text-[#818796] text-base font-normal leading-relaxed space-y-2 marker:text-[#818796]">
+                  {service.points.map((point, i) => (
+                    <li key={i}>{point}</li>
+                  ))}
+                </ul>
               </div>
-              <p className="max-w-[285px] mt-[30px] font-medium text-base leading-relaxed text-[#393939]">
-                {service.description}
-              </p>
-              <ul className="list-disc ml-[15px] mt-[30px] max-w-[310px] text-[#818796] text-base font-normal leading-relaxed space-y-2 marker:text-[#818796]">
-                {service.points.map((point, i) => (
-                  <li key={i}>{point}</li>
-                ))}
-              </ul>
-            </div>
+            </SwiperSlide>
           ))}
-        </Slider>
+        </Swiper>
       </div>
     </div>
   );
