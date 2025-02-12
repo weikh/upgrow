@@ -50,14 +50,12 @@
       const version = new Date().getTime(); // Har safar yangi versiya yaratish
 
       document.addEventListener("DOMContentLoaded", function () {
-        // CSS fayllarni yangilash
         document.querySelectorAll('link[rel="stylesheet"]').forEach((link) => {
           if (!link.href.includes("fonts.googleapis.com")) {
             link.href = link.href + "?v=" + version;
           }
         });
 
-        // JS fayllarni yangilash
         document.querySelectorAll("script").forEach((script) => {
           if (script.src) {
             script.src = script.src + "?v=" + version;

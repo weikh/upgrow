@@ -16,6 +16,6 @@ export default defineConfig({
     },
   },
   define: {
-    __BUILD_VERSION__: JSON.stringify(new Date().getTime()), // Versiya yaratish
+    __BUILD_VERSION__: JSON.stringify(new Date().getTime()), // Har safar yangi versiya
   },
 });
